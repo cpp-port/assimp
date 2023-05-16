@@ -150,8 +150,8 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Debug\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -185,8 +185,8 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Debug\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -220,8 +220,8 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Debug\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -259,8 +259,8 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Debug\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -297,8 +297,8 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Release\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -333,8 +333,8 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Release\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -369,8 +369,8 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Release\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -409,8 +409,8 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ASSIMP_BUILD_DLL_EXPORT;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_BUILD_NO_C4D_IMPORTER;MINIZ_USE_UNALIGNED_LOADS_AND_STORES=0;ASSIMP_IMPORTER_GLTF_USE_OPEN3DGC=1;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_NOMEMBERITERATORCLASS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Release\";assimp_EXPORTS</PreprocessorDefinitions>
@@ -683,7 +683,16 @@
     <ClCompile Include="assimp_assimp\code\AssetLib\Ogre\OgreBinarySerializer.cpp" />
     <ClCompile Include="assimp_assimp\code\AssetLib\Ogre\OgreXmlSerializer.cpp" />
     <ClCompile Include="assimp_assimp\code\AssetLib\Ogre\OgreMaterial.cpp" />
-    <ClCompile Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXImporter.cpp" />
+    <ClCompile Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClInclude Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXImporter.h" />
     <ClInclude Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXStructs.h" />
     <ClCompile Include="assimp_assimp\code\AssetLib\Ply\PlyLoader.cpp" />
@@ -826,7 +835,16 @@
     <ClInclude Include="assimp_assimp\code\AssetLib\MMD\MMDVmdParser.h" />
     <ClInclude Include="assimp_assimp\code\AssetLib\Obj\ObjExporter.h" />
     <ClCompile Include="assimp_assimp\code\AssetLib\Obj\ObjExporter.cpp" />
-    <ClCompile Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXExporter.cpp" />
+    <ClCompile Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClInclude Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXExporter.h" />
     <ClCompile Include="assimp_assimp\code\AssetLib\Ply\PlyExporter.cpp" />
     <ClInclude Include="assimp_assimp\code\AssetLib\Ply\PlyExporter.h" />
@@ -871,73 +889,9 @@
     <ClInclude Include="assimp_assimp\code\AssetLib\Assjson\mesh_splitter.h" />
     <ClInclude Include="assimp_assimp\code\AssetLib\Step\StepExporter.h" />
     <ClCompile Include="assimp_assimp\code\AssetLib\Step\StepExporter.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\unzip\crypt.c" />
-    <ClInclude Include="assimp_assimp\contrib\unzip\crypt.h" />
-    <ClCompile Include="assimp_assimp\contrib\unzip\ioapi.c" />
-    <ClInclude Include="assimp_assimp\contrib\unzip\ioapi.h" />
-    <ClCompile Include="assimp_assimp\contrib\unzip\unzip.c" />
-    <ClInclude Include="assimp_assimp\contrib\unzip\unzip.h" />
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\common\shapes.cc" />
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\common\shapes.h" />
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\common\utils.h" />
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h" />
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc" />
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc" />
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\cdt.h" />
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc" />
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep.h" />
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc" />
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h" />
-    <ClInclude Include="assimp_assimp\contrib\clipper\clipper.hpp" />
-    <ClCompile Include="assimp_assimp\contrib\clipper\clipper.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLParser.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\DDLNode.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLCommon.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLExport.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\Value.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLStream.cpp" />
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h" />
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h" />
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h" />
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h" />
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h" />
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\DDLNode.h" />
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\Value.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h" />
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcBinaryStream.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcCommon.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h" />
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h" />
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVector.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcFIFO.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTimer.h" />
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcTools.cpp" />
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleFans.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcVector.h" />
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcVector.inl" />
     <ClInclude Include="assimp_assimp\contrib\zip\src\miniz.h" />
     <ClCompile Include="assimp_assimp\contrib\zip\src\zip.c" />
     <ClInclude Include="assimp_assimp\contrib\zip\src\zip.h" />
-    <ClInclude Include="assimp_assimp\contrib\pugixml\src\pugiconfig.hpp" />
-    <ClInclude Include="assimp_assimp\contrib\pugixml\src\pugixml.hpp" />
-    <ClInclude Include="assimp_assimp\contrib\stb\stb_image.h" />
     <ClInclude Include="assimp_assimp\include\assimp\anim.h" />
     <ClInclude Include="assimp_assimp\include\assimp\aabb.h" />
     <ClInclude Include="assimp_assimp\include\assimp\ai_assert.h" />

@@ -2,7 +2,7 @@
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="assimp_assimp\code\Common\Assimp.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>STEPParser\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="assimp_assimp\code\CApi\CInterfaceIOWrapper.cpp">
       <Filter>CApi</Filter>
@@ -636,66 +636,6 @@
     </ClCompile>
     <ClCompile Include="assimp_assimp\code\AssetLib\Step\StepExporter.cpp">
       <Filter>AssetLib\STEP</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\unzip\crypt.c">
-      <Filter>Contrib\unzip</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\unzip\ioapi.c">
-      <Filter>Contrib\unzip</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\unzip\unzip.c">
-      <Filter>Contrib\unzip</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\clipper\clipper.cpp">
-      <Filter>Contrib\Clipper</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\DDLNode.cpp">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\Value.cpp">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcTools.cpp">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
-      <Filter>Contrib\open3dgc</Filter>
     </ClCompile>
     <ClCompile Include="assimp_assimp\contrib\zip\src\zip.c">
       <Filter>ziplib</Filter>
@@ -1353,143 +1293,11 @@
     <ClInclude Include="assimp_assimp\code\AssetLib\Step\StepExporter.h">
       <Filter>AssetLib\STEP</Filter>
     </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\unzip\crypt.h">
-      <Filter>Contrib\unzip</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\unzip\ioapi.h">
-      <Filter>Contrib\unzip</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\unzip\unzip.h">
-      <Filter>Contrib\unzip</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\common\shapes.h">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\common\utils.h">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
-      <Filter>Contrib\Poly2Tri</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\clipper\clipper.hpp">
-      <Filter>Contrib\Clipper</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\openddlparser\include\openddlparser\Value.h">
-      <Filter>Contrib\openddl_parser</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcCommon.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcFIFO.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTimer.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcVector.h">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\Open3DGC\o3dgcVector.inl">
-      <Filter>Contrib\open3dgc</Filter>
-    </ClInclude>
     <ClInclude Include="assimp_assimp\contrib\zip\src\miniz.h">
       <Filter>ziplib</Filter>
     </ClInclude>
     <ClInclude Include="assimp_assimp\contrib\zip\src\zip.h">
       <Filter>ziplib</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\pugixml\src\pugiconfig.hpp">
-      <Filter>Contrib\Pugixml</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\pugixml\src\pugixml.hpp">
-      <Filter>Contrib\Pugixml</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp_assimp\contrib\stb\stb_image.h">
-      <Filter>Contrib\stb</Filter>
     </ClInclude>
     <ClInclude Include="assimp_assimp\include\assimp\anim.h">
       <Filter>include\assimp</Filter>
@@ -1746,7 +1554,7 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="assimp_assimp\code\res\assimp.rc">
-      <Filter>Source Files</Filter>
+      <Filter>STEPParser\Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1918,30 +1726,6 @@
     <Filter Include="Compiler">
       <UniqueIdentifier>{C7CAF535-BBF9-349E-AC95-F96B445F903C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Contrib">
-      <UniqueIdentifier>{67BF370F-2190-3C4C-8462-3A2BB11B949C}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Contrib\Clipper">
-      <UniqueIdentifier>{9D19AC85-415C-3736-9CAA-D03F973DD194}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Contrib\Poly2Tri">
-      <UniqueIdentifier>{4B87958F-25C3-3884-BBEE-3658E2629E13}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Contrib\Pugixml">
-      <UniqueIdentifier>{4D059E59-A1D4-3A15-BD75-0995352F4C69}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Contrib\open3dgc">
-      <UniqueIdentifier>{06F6A0FD-F89A-3200-B963-3D9FC69E8CFD}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Contrib\openddl_parser">
-      <UniqueIdentifier>{D0FC34C6-DB4F-35F9-B6E3-2B0DDA5C8AB8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Contrib\stb">
-      <UniqueIdentifier>{0C414A5C-99D4-373B-9A5F-CE8931059AEB}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Contrib\unzip">
-      <UniqueIdentifier>{E6F765A4-F5F5-3489-862A-167DBDC148E4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Exporter">
       <UniqueIdentifier>{9086EFFB-A935-399B-B3B9-9749F903AF10}</UniqueIdentifier>
     </Filter>
@@ -1960,9 +1744,6 @@
     <Filter Include="STEPParser">
       <UniqueIdentifier>{A44CD408-D4FA-3080-89E1-453D81DECBAD}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{7DCCDB88-4D8A-3F3F-BD5A-2F74D8FF5734}</UniqueIdentifier>
-    </Filter>
     <Filter Include="include">
       <UniqueIdentifier>{D1C647D7-6C36-3DD0-B881-984B0E96D682}</UniqueIdentifier>
     </Filter>
@@ -1971,6 +1752,9 @@
     </Filter>
     <Filter Include="ziplib">
       <UniqueIdentifier>{EA601FE2-EBE3-3C3A-B11E-FB0289D1A035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser\Source Files">
+      <UniqueIdentifier>{7DCCDB88-4D8A-3F3F-BD5A-2F74D8FF5734}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
