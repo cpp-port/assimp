@@ -119,16 +119,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">true</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">true</GenerateManifest>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">true</GenerateManifest>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">false</LinkIncremental>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
@@ -170,6 +166,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDataBaseFile>C:/third/assimp_raw_project_files/bin/Debug/assimp-vc143-mtd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -205,6 +202,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDataBaseFile>C:/third/assimp_raw_project_files/bin/Debug/assimp-vc143-mtd.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -319,6 +317,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ProgramDataBaseFile>C:/third/assimp_raw_project_files/bin/Release/assimp-vc143-mt.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -355,6 +354,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <ProgramDataBaseFile>C:/third/assimp_raw_project_files/bin/Release/assimp-vc143-mt.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -454,7 +454,12 @@
     <ClInclude Include="assimp_assimp\code\Common\Importer.h" />
     <ClInclude Include="assimp_assimp\code\Common\ScenePrivate.h" />
     <ClCompile Include="assimp_assimp\code\Common\PostStepRegistry.cpp" />
-    <ClCompile Include="assimp_assimp\code\Common\ImporterRegistry.cpp" />
+    <ClCompile Include="assimp_assimp\code\Common\ImporterRegistry.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ASSIMP_BUILD_NO_C4D_IMPORTER;RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
     <ClInclude Include="assimp_assimp\code\Common\DefaultProgressHandler.h" />
     <ClCompile Include="assimp_assimp\code\Common\DefaultIOStream.cpp" />
     <ClCompile Include="assimp_assimp\code\Common\IOSystem.cpp" />
@@ -978,8 +983,29 @@
     <ClInclude Include="assimp_assimp\include\assimp\Compiler\pstdint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\base\minizip\minizip.vcxproj">
+      <Project>{e77f1d75-2add-44f2-a4d2-2c1d26a60114}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ProjectReference Include="..\..\base\openddlparser\openddlparser.vcxproj">
+      <Project>{20904bc8-943e-4397-98e0-35f98f4789b9}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ProjectReference Include="..\..\base\pugixml\pugixml.vcxproj">
+      <Project>{554fe0b9-bcbe-49f9-a450-94802c470831}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
     <ProjectReference Include="..\..\base\zlib\zlib.vcxproj">
       <Project>{34fcfbf1-e922-4fdc-bc83-b3c04623e8c2}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ProjectReference Include="..\..\graphics\polyclipping\polyclipping.vcxproj">
+      <Project>{424f72d6-053a-41c5-be03-3b0bd535f1eb}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ProjectReference Include="..\poly2tri\poly2tri.vcxproj">
+      <Project>{ee228936-032e-439e-9a15-f9cdbf0c5fec}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
