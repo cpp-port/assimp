@@ -150,7 +150,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ZLIB_DLL;RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -185,7 +185,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ZLIB_DLL;RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -297,7 +297,7 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ZLIB_DLL;RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -333,7 +333,7 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ZLIB_DLL;RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp_assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -978,15 +978,8 @@
     <ClInclude Include="assimp_assimp\include\assimp\Compiler\pstdint.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ZERO_CHECK.vcxproj">
-      <Project>{87E81B29-2912-3B67-91E9-9EC9CD0FC519}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="contrib\zlib\zlibstatic.vcxproj">
-      <Project>{F7B5694A-43A3-3B9C-A04A-C663A02C9A1E}</Project>
-      <Name>zlibstatic</Name>
+    <ProjectReference Include="..\..\graphics\clipper\clipper.vcxproj">
+      <Project>{424f72d6-053a-41c5-be03-3b0bd535f1eb}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
