@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -198,11 +196,9 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDataBaseFile>C:/third/assimp_raw_project_files/bin/Debug/assimp-vc143-mtd.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -348,13 +344,11 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /PDBALTPATH:%%_PDB%%</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/third/assimp_raw_project_files/bin/Release/assimp-vc143-mt.pdb</ProgramDataBaseFile>
-      <SubSystem>Console</SubSystem>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>

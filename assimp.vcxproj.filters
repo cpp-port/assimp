@@ -2,7 +2,7 @@
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="assimp_assimp\code\Common\Assimp.cpp">
-      <Filter>STEPParser\Source Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="assimp_assimp\code\CApi\CInterfaceIOWrapper.cpp">
       <Filter>CApi</Filter>
@@ -1554,7 +1554,7 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="assimp_assimp\code\res\assimp.rc">
-      <Filter>STEPParser\Source Files</Filter>
+      <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1753,7 +1753,7 @@
     <Filter Include="ziplib">
       <UniqueIdentifier>{EA601FE2-EBE3-3C3A-B11E-FB0289D1A035}</UniqueIdentifier>
     </Filter>
-    <Filter Include="STEPParser\Source Files">
+    <Filter Include="Source Files">
       <UniqueIdentifier>{7DCCDB88-4D8A-3F3F-BD5A-2F74D8FF5734}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
