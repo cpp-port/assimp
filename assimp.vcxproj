@@ -684,14 +684,14 @@
     <ClCompile Include="assimp_assimp\code\AssetLib\Ogre\OgreXmlSerializer.cpp" />
     <ClCompile Include="assimp_assimp\code\AssetLib\Ogre\OgreMaterial.cpp" />
     <ClCompile Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">RAPIDJSON_HAS_STDSTRING;_$(ProjectName)_project;_output_type_$(OutputType);_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|Win32'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|Win32'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticDebug|x64'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='StaticRelease|x64'">_$(ProjectName)_project;_output_type_$(OutputType);WIN32</PreprocessorDefinitions>
     </ClCompile>
     <ClInclude Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXImporter.h" />
     <ClInclude Include="assimp_assimp\code\AssetLib\OpenGEX\OpenGEXStructs.h" />
