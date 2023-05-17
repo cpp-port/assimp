@@ -144,7 +144,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -180,7 +180,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -214,7 +214,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -253,7 +253,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -291,7 +291,7 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -328,7 +328,7 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -363,7 +363,7 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
@@ -403,7 +403,7 @@
       <Optimization>MaxSpeed</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RAPIDJSON_HAS_STDSTRING;ASSIMP_BUILD_NO_OWN_ZLIB;ASSIMP_USE_HUNTER;_$(ProjectName)_project;_output_type_$(OutputType);WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)assimp/code;$(SolutionDir)../port/include;$(SolutionDir)../operating_system/operating_system-windows/configuration;$(SolutionDir)../operating_system/operating_system-windows/configuration/$(RootNamespace);$(SolutionDir)../operating_system/operating_system-windows/include;$(ProjectDir)/include/$(RootNamespace);$(ProjectDir)/include;$(ProjectDir);$(SolutionDir)../include</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>

@@ -1,1 +1,1 @@
-../assimp_assimp/contrib/utf8cpp/source/utf8.h
+../assimp/contrib/utf8cpp/source/utf8.h
