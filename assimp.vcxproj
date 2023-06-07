@@ -435,9 +435,15 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Exporter.cpp" />
+    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Importer.cpp" />
     <ClCompile Include="assimp\code\Common\Assimp.cpp" />
     <ResourceCompile Include="assimp\code\res\assimp.rc" />
     <ClCompile Include="assimp\code\CApi\CInterfaceIOWrapper.cpp" />
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Asset.h" />
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.h" />
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Exporter.h" />
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Importer.h" />
     <ClInclude Include="assimp\code\CApi\CInterfaceIOWrapper.h" />
     <ClInclude Include="assimp\code\Common\StbCommon.h" />
     <ClCompile Include="assimp\code\Common\Compression.cpp" />
@@ -811,12 +817,6 @@
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFAssetWriter.inl" />
     <ClCompile Include="assimp\code\AssetLib\glTF\glTFImporter.cpp" />
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFImporter.h" />
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Asset.h" />
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Asset.inl" />
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.h" />
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl" />
-    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Importer.cpp" />
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Importer.h" />
     <ClInclude Include="assimp\code\AssetLib\3MF\3MFTypes.h" />
     <ClInclude Include="assimp\code\AssetLib\3MF\XmlSerializer.h" />
     <ClCompile Include="assimp\code\AssetLib\3MF\XmlSerializer.cpp" />
@@ -875,8 +875,6 @@
     <ClInclude Include="assimp\code\AssetLib\X3D\X3DExporter.hpp" />
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFExporter.h" />
     <ClCompile Include="assimp\code\AssetLib\glTF\glTFExporter.cpp" />
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Exporter.h" />
-    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Exporter.cpp" />
     <ClInclude Include="assimp\code\AssetLib\3MF\D3MFExporter.h" />
     <ClCompile Include="assimp\code\AssetLib\3MF\D3MFExporter.cpp" />
     <ClInclude Include="assimp\code\Pbrt\PbrtExporter.h" />
@@ -1001,6 +999,10 @@
       <Project>{ee228936-032e-439e-9a15-f9cdbf0c5fec}</Project>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp\code\AssetLib\glTF2\glTF2Asset.inl" />
+    <None Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

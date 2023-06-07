@@ -542,13 +542,10 @@
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
     <ClCompile Include="assimp\code\AssetLib\glTF\glTFCommon.cpp">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClCompile>
     <ClCompile Include="assimp\code\AssetLib\glTF\glTFImporter.cpp">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Importer.cpp">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClCompile>
     <ClCompile Include="assimp\code\AssetLib\3MF\XmlSerializer.cpp">
       <Filter>AssetLib\3MF</Filter>
@@ -614,10 +611,7 @@
       <Filter>AssetLib\X3D</Filter>
     </ClCompile>
     <ClCompile Include="assimp\code\AssetLib\glTF\glTFExporter.cpp">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClCompile>
-    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Exporter.cpp">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClCompile>
     <ClCompile Include="assimp\code\AssetLib\3MF\D3MFExporter.cpp">
       <Filter>AssetLib\3MF</Filter>
@@ -639,6 +633,12 @@
     </ClCompile>
     <ClCompile Include="assimp\contrib\zip\src\zip.c">
       <Filter>ziplib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Exporter.cpp">
+      <Filter>AssetLib\glTF2</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\code\AssetLib\glTF2\glTF2Importer.cpp">
+      <Filter>AssetLib\glTF2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1162,37 +1162,22 @@
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFCommon.h">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFAsset.h">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFAsset.inl">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFAssetWriter.h">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFAssetWriter.inl">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFImporter.h">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Asset.h">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Asset.inl">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.h">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Importer.h">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\3MF\3MFTypes.h">
       <Filter>AssetLib\3MF</Filter>
@@ -1273,10 +1258,7 @@
       <Filter>AssetLib\X3D</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\glTF\glTFExporter.h">
-      <Filter>AssetLib\GLTF</Filter>
-    </ClInclude>
-    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Exporter.h">
-      <Filter>AssetLib\GLTF</Filter>
+      <Filter>AssetLib\glTF</Filter>
     </ClInclude>
     <ClInclude Include="assimp\code\AssetLib\3MF\D3MFExporter.h">
       <Filter>AssetLib\3MF</Filter>
@@ -1551,6 +1533,18 @@
     <ClInclude Include="assimp\include\assimp\Compiler\pstdint.h">
       <Filter>Compiler</Filter>
     </ClInclude>
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Asset.h">
+      <Filter>AssetLib\glTF2</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.h">
+      <Filter>AssetLib\glTF2</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Exporter.h">
+      <Filter>AssetLib\glTF2</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\code\AssetLib\glTF2\glTF2Importer.h">
+      <Filter>AssetLib\glTF2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="assimp\code\res\assimp.rc">
@@ -1611,9 +1605,6 @@
     </Filter>
     <Filter Include="AssetLib\FBX">
       <UniqueIdentifier>{209A29DF-820B-3F2B-BF18-4CD79EEBAC2D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AssetLib\GLTF">
-      <UniqueIdentifier>{30B5F513-ABA9-3081-9291-F9D850BD8C62}</UniqueIdentifier>
     </Filter>
     <Filter Include="AssetLib\HMP">
       <UniqueIdentifier>{F8BC4E4C-3ABB-306A-8A8E-3F82634B761A}</UniqueIdentifier>
@@ -1756,5 +1747,19 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{7DCCDB88-4D8A-3F3F-BD5A-2F74D8FF5734}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AssetLib\glTF2">
+      <UniqueIdentifier>{2ce902e2-cb06-496f-b44c-8e3701d19f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\glTF">
+      <UniqueIdentifier>{30B5F513-ABA9-3081-9291-F9D850BD8C62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assimp\code\AssetLib\glTF2\glTF2Asset.inl">
+      <Filter>AssetLib\glTF2</Filter>
+    </None>
+    <None Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+      <Filter>AssetLib\glTF2</Filter>
+    </None>
   </ItemGroup>
 </Project>
