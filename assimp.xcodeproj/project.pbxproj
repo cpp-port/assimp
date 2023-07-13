@@ -448,7 +448,6 @@
 		9A798F102A53A18300261F46 /* X3DImporter_Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986422A53A17500261F46 /* X3DImporter_Group.cpp */; };
 		9A798F112A53A18300261F46 /* X3DImporter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9A7986432A53A17500261F46 /* X3DImporter.hpp */; };
 		9A798F122A53A18300261F46 /* X3DImporter_Postprocess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986442A53A17500261F46 /* X3DImporter_Postprocess.cpp */; };
-		9A798F132A53A18300261F46 /* C4DImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986462A53A17500261F46 /* C4DImporter.cpp */; };
 		9A798F142A53A18300261F46 /* C4DImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7986472A53A17500261F46 /* C4DImporter.h */; };
 		9A798F152A53A18300261F46 /* SIBImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7986492A53A17500261F46 /* SIBImporter.h */; };
 		9A798F162A53A18300261F46 /* SIBImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A79864A2A53A17500261F46 /* SIBImporter.cpp */; };
@@ -501,12 +500,10 @@
 		9A798F452A53A18400261F46 /* IFCLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986832A53A17600261F46 /* IFCLoader.cpp */; };
 		9A798F462A53A18400261F46 /* IFCMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986842A53A17600261F46 /* IFCMaterial.cpp */; };
 		9A798F472A53A18400261F46 /* IFCUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986852A53A17600261F46 /* IFCUtil.cpp */; };
-		9A798F482A53A18400261F46 /* IFCReaderGen_4.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7986862A53A17600261F46 /* IFCReaderGen_4.h */; };
 		9A798F492A53A18400261F46 /* IFCProfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986872A53A17600261F46 /* IFCProfile.cpp */; };
 		9A798F4A2A53A18400261F46 /* IFCGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986882A53A17600261F46 /* IFCGeometry.cpp */; };
 		9A798F4B2A53A18400261F46 /* IFCReaderGen1_2x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986892A53A17600261F46 /* IFCReaderGen1_2x3.cpp */; };
 		9A798F4C2A53A18400261F46 /* IFCReaderGen_2x3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A79868A2A53A17600261F46 /* IFCReaderGen_2x3.h */; };
-		9A798F4D2A53A18400261F46 /* IFCReaderGen_4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A79868B2A53A17600261F46 /* IFCReaderGen_4.cpp */; };
 		9A798F4E2A53A18400261F46 /* IFCCurve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A79868C2A53A17600261F46 /* IFCCurve.cpp */; };
 		9A798F4F2A53A18400261F46 /* IFCUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A79868D2A53A17600261F46 /* IFCUtil.h */; };
 		9A798F502A53A18400261F46 /* IFCReaderGen2_2x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A79868E2A53A17600261F46 /* IFCReaderGen2_2x3.cpp */; };
@@ -518,9 +515,73 @@
 		9A798F562A53A18400261F46 /* OFFLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986962A53A17600261F46 /* OFFLoader.cpp */; };
 		9A798F572A53A18400261F46 /* MaterialSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7986982A53A17600261F46 /* MaterialSystem.h */; };
 		9A798F582A53A18400261F46 /* MaterialSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986992A53A17600261F46 /* MaterialSystem.cpp */; };
+		9A809D062A5F7A5500FCA9FD /* libminizip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6A55AB2A5E019800A448BF /* libminizip.dylib */; };
+		9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */; };
+		9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CDF2A5F78F100FCA9FD /* libpoly2tri.dylib */; };
+		9A809D092A5F7A7100FCA9FD /* libpolyclipping.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD32A5F789500FCA9FD /* libpolyclipping.dylib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9A6A55AA2A5E019800A448BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6A55A62A5E019700A448BF /* minizip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A6A559F2A5E013F00A448BF;
+			remoteInfo = minizip;
+		};
+		9A6A55CD2A5E04C200A448BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6A55A62A5E019700A448BF /* minizip.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6A559E2A5E013F00A448BF;
+			remoteInfo = minizip;
+		};
+		9A809CD22A5F789500FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A809C972A5F757E00FCA9FD;
+			remoteInfo = polyclipping;
+		};
+		9A809CD82A5F78BA00FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A809CA72A5F75AC00FCA9FD;
+			remoteInfo = openddlparser;
+		};
+		9A809CDE2A5F78F100FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A809CB72A5F764400FCA9FD;
+			remoteInfo = poly2tri;
+		};
+		9A809CFF2A5F7A3F00FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A809CA62A5F75AC00FCA9FD;
+			remoteInfo = openddlparser;
+		};
+		9A809D012A5F7A3F00FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A809CB62A5F764400FCA9FD;
+			remoteInfo = poly2tri;
+		};
+		9A809D032A5F7A3F00FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A809C962A5F757E00FCA9FD;
+			remoteInfo = polyclipping;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9A6A55A62A5E019700A448BF /* minizip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = minizip.xcodeproj; path = ../../base/minizip/minizip.xcodeproj; sourceTree = "<group>"; };
 		9A797F3A2A53A0B600261F46 /* libassimp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libassimp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7984452A53A17400261F46 /* ByteSwapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteSwapper.h; sourceTree = "<group>"; };
 		9A7984462A53A17400261F46 /* IOSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IOSystem.hpp; sourceTree = "<group>"; };
@@ -1032,12 +1093,10 @@
 		9A7986832A53A17600261F46 /* IFCLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCLoader.cpp; sourceTree = "<group>"; };
 		9A7986842A53A17600261F46 /* IFCMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCMaterial.cpp; sourceTree = "<group>"; };
 		9A7986852A53A17600261F46 /* IFCUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCUtil.cpp; sourceTree = "<group>"; };
-		9A7986862A53A17600261F46 /* IFCReaderGen_4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFCReaderGen_4.h; sourceTree = "<group>"; };
 		9A7986872A53A17600261F46 /* IFCProfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCProfile.cpp; sourceTree = "<group>"; };
 		9A7986882A53A17600261F46 /* IFCGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCGeometry.cpp; sourceTree = "<group>"; };
 		9A7986892A53A17600261F46 /* IFCReaderGen1_2x3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCReaderGen1_2x3.cpp; sourceTree = "<group>"; };
 		9A79868A2A53A17600261F46 /* IFCReaderGen_2x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFCReaderGen_2x3.h; sourceTree = "<group>"; };
-		9A79868B2A53A17600261F46 /* IFCReaderGen_4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCReaderGen_4.cpp; sourceTree = "<group>"; };
 		9A79868C2A53A17600261F46 /* IFCCurve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCCurve.cpp; sourceTree = "<group>"; };
 		9A79868D2A53A17600261F46 /* IFCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFCUtil.h; sourceTree = "<group>"; };
 		9A79868E2A53A17600261F46 /* IFCReaderGen2_2x3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IFCReaderGen2_2x3.cpp; sourceTree = "<group>"; };
@@ -1049,6 +1108,9 @@
 		9A7986962A53A17600261F46 /* OFFLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OFFLoader.cpp; sourceTree = "<group>"; };
 		9A7986982A53A17600261F46 /* MaterialSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialSystem.h; sourceTree = "<group>"; };
 		9A7986992A53A17600261F46 /* MaterialSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaterialSystem.cpp; sourceTree = "<group>"; };
+		9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = polyclipping.xcodeproj; path = ../../graphics/polyclipping/polyclipping.xcodeproj; sourceTree = "<group>"; };
+		9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openddlparser.xcodeproj; path = ../../base/openddlparser/openddlparser.xcodeproj; sourceTree = "<group>"; };
+		9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = poly2tri.xcodeproj; path = ../poly2tri/poly2tri.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1056,17 +1118,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */,
+				9A809D092A5F7A7100FCA9FD /* libpolyclipping.dylib in Frameworks */,
+				9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */,
+				9A809D062A5F7A5500FCA9FD /* libminizip.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A6A55A72A5E019700A448BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A55AB2A5E019800A448BF /* libminizip.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9A797F312A53A0B600261F46 = {
 			isa = PBXGroup;
 			children = (
+				9A6A55A62A5E019700A448BF /* minizip.xcodeproj */,
+				9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */,
+				9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */,
+				9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */,
 				9A797F4B2A53A16E00261F46 /* assimp */,
 				9A797F3B2A53A0B600261F46 /* Products */,
+				9A809D052A5F7A5500FCA9FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1106,95 +1185,95 @@
 		9A7984442A53A17400261F46 /* assimp */ = {
 			isa = PBXGroup;
 			children = (
-				9A7984452A53A17400261F46 /* ByteSwapper.h */,
-				9A7984462A53A17400261F46 /* IOSystem.hpp */,
-				9A7984472A53A17400261F46 /* StreamReader.h */,
-				9A7984482A53A17400261F46 /* Logger.hpp */,
-				9A7984492A53A17400261F46 /* IOStream.hpp */,
-				9A79844A2A53A17400261F46 /* SkeletonMeshBuilder.h */,
-				9A79844B2A53A17400261F46 /* Vertex.h */,
-				9A79844C2A53A17400261F46 /* quaternion.inl */,
-				9A79844D2A53A17400261F46 /* defs.h */,
-				9A79844E2A53A17400261F46 /* Subdivision.h */,
-				9A79844F2A53A17400261F46 /* ParsingUtils.h */,
-				9A7984502A53A17400261F46 /* version.h */,
-				9A7984512A53A17400261F46 /* XMLTools.h */,
-				9A7984522A53A17400261F46 /* XmlParser.h */,
-				9A7984532A53A17400261F46 /* StringComparison.h */,
-				9A7984542A53A17400261F46 /* matrix4x4.h */,
-				9A7984552A53A17400261F46 /* Importer.hpp */,
-				9A7984562A53A17400261F46 /* cfileio.h */,
-				9A7984572A53A17400261F46 /* GenericProperty.h */,
-				9A7984582A53A17400261F46 /* RemoveComments.h */,
-				9A7984592A53A17400261F46 /* vector2.h */,
-				9A79845A2A53A17400261F46 /* light.h */,
-				9A79845B2A53A17400261F46 /* types.h */,
-				9A79845C2A53A17400261F46 /* MathFunctions.h */,
-				9A79845D2A53A17400261F46 /* cimport.h */,
-				9A79845E2A53A17400261F46 /* camera.h */,
-				9A79845F2A53A17400261F46 /* matrix3x3.h */,
-				9A7984602A53A17400261F46 /* color4.inl */,
-				9A7984612A53A17400261F46 /* StringUtils.h */,
-				9A7984622A53A17400261F46 /* commonMetaData.h */,
-				9A7984632A53A17400261F46 /* DefaultIOStream.h */,
-				9A7984642A53A17400261F46 /* BaseImporter.h */,
-				9A7984652A53A17400261F46 /* SceneCombiner.h */,
-				9A7984662A53A17400261F46 /* material.h */,
-				9A7984672A53A17400261F46 /* ai_assert.h */,
-				9A7984682A53A17400261F46 /* NullLogger.hpp */,
-				9A7984692A53A17400261F46 /* SmoothingGroups.h */,
-				9A79846A2A53A17400261F46 /* quaternion.h */,
-				9A79846B2A53A17400261F46 /* LogAux.h */,
-				9A79846C2A53A17400261F46 /* config.h.in */,
-				9A79846D2A53A17400261F46 /* GltfMaterial.h */,
-				9A79846E2A53A17400261F46 /* AssertHandler.h */,
-				9A79846F2A53A17400261F46 /* DefaultLogger.hpp */,
-				9A7984702A53A17400261F46 /* material.inl */,
-				9A7984712A53A17400261F46 /* metadata.h */,
-				9A7984722A53A17400261F46 /* mesh.h */,
-				9A7984732A53A17400261F46 /* LineSplitter.h */,
-				9A7984742A53A17400261F46 /* CreateAnimMesh.h */,
 				9A7984752A53A17400261F46 /* .editorconfig */,
-				9A7984762A53A17400261F46 /* SpatialSort.h */,
-				9A7984772A53A17400261F46 /* MemoryIOWrapper.h */,
-				9A7984782A53A17400261F46 /* Exporter.hpp */,
-				9A7984792A53A17400261F46 /* vector2.inl */,
-				9A79847A2A53A17400261F46 /* matrix4x4.inl */,
-				9A79847B2A53A17400261F46 /* vector3.inl */,
-				9A79847C2A53A17400261F46 /* ProgressHandler.hpp */,
-				9A79847D2A53A17400261F46 /* cexport.h */,
-				9A79847E2A53A17400261F46 /* StreamWriter.h */,
-				9A79847F2A53A17400261F46 /* color4.h */,
-				9A7984802A53A17400261F46 /* StandardShapes.h */,
-				9A7984812A53A17400261F46 /* pbrmaterial.h */,
-				9A7984822A53A17400261F46 /* fast_atof.h */,
-				9A7984832A53A17400261F46 /* ObjMaterial.h */,
-				9A7984842A53A17400261F46 /* anim.h */,
-				9A7984852A53A17400261F46 /* ColladaMetaData.h */,
-				9A7984862A53A17400261F46 /* postprocess.h */,
-				9A7984872A53A17400261F46 /* Exceptional.h */,
-				9A7984882A53A17400261F46 /* texture.h */,
-				9A7984892A53A17400261F46 /* ZipArchiveIOSystem.h */,
-				9A79848A2A53A17400261F46 /* BlobIOSystem.h */,
-				9A79848B2A53A17400261F46 /* matrix3x3.inl */,
-				9A79848C2A53A17400261F46 /* qnan.h */,
-				9A79848D2A53A17400261F46 /* port */,
-				9A7984912A53A17400261F46 /* Profiler.h */,
-				9A7984922A53A17400261F46 /* Bitmap.h */,
-				9A7984932A53A17400261F46 /* importerdesc.h */,
-				9A7984942A53A17400261F46 /* TinyFormatter.h */,
-				9A7984952A53A17400261F46 /* Compiler */,
-				9A7984992A53A17400261F46 /* SmallVector.h */,
-				9A79849A2A53A17400261F46 /* IOStreamBuffer.h */,
-				9A79849B2A53A17400261F46 /* Hash.h */,
-				9A79849C2A53A17400261F46 /* SGSpatialSort.h */,
 				9A79849D2A53A17400261F46 /* aabb.h */,
-				9A79849E2A53A17400261F46 /* SmoothingGroups.inl */,
-				9A79849F2A53A17400261F46 /* vector3.h */,
+				9A7984672A53A17400261F46 /* ai_assert.h */,
+				9A7984842A53A17400261F46 /* anim.h */,
+				9A79846E2A53A17400261F46 /* AssertHandler.h */,
 				9A7984A02A53A17400261F46 /* Base64.hpp */,
+				9A7984642A53A17400261F46 /* BaseImporter.h */,
+				9A7984922A53A17400261F46 /* Bitmap.h */,
+				9A79848A2A53A17400261F46 /* BlobIOSystem.h */,
+				9A7984452A53A17400261F46 /* ByteSwapper.h */,
+				9A79845E2A53A17400261F46 /* camera.h */,
+				9A79847D2A53A17400261F46 /* cexport.h */,
+				9A7984562A53A17400261F46 /* cfileio.h */,
+				9A79845D2A53A17400261F46 /* cimport.h */,
+				9A7984852A53A17400261F46 /* ColladaMetaData.h */,
+				9A79847F2A53A17400261F46 /* color4.h */,
+				9A7984602A53A17400261F46 /* color4.inl */,
+				9A7984622A53A17400261F46 /* commonMetaData.h */,
+				9A7984952A53A17400261F46 /* Compiler */,
+				9A79846C2A53A17400261F46 /* config.h.in */,
+				9A7984742A53A17400261F46 /* CreateAnimMesh.h */,
+				9A7984632A53A17400261F46 /* DefaultIOStream.h */,
 				9A7984A12A53A17400261F46 /* DefaultIOSystem.h */,
-				9A7984A22A53A17400261F46 /* scene.h */,
+				9A79846F2A53A17400261F46 /* DefaultLogger.hpp */,
+				9A79844D2A53A17400261F46 /* defs.h */,
+				9A7984872A53A17400261F46 /* Exceptional.h */,
+				9A7984782A53A17400261F46 /* Exporter.hpp */,
+				9A7984822A53A17400261F46 /* fast_atof.h */,
+				9A7984572A53A17400261F46 /* GenericProperty.h */,
+				9A79846D2A53A17400261F46 /* GltfMaterial.h */,
+				9A79849B2A53A17400261F46 /* Hash.h */,
+				9A7984552A53A17400261F46 /* Importer.hpp */,
+				9A7984932A53A17400261F46 /* importerdesc.h */,
+				9A7984492A53A17400261F46 /* IOStream.hpp */,
+				9A79849A2A53A17400261F46 /* IOStreamBuffer.h */,
+				9A7984462A53A17400261F46 /* IOSystem.hpp */,
+				9A79845A2A53A17400261F46 /* light.h */,
+				9A7984732A53A17400261F46 /* LineSplitter.h */,
+				9A79846B2A53A17400261F46 /* LogAux.h */,
+				9A7984482A53A17400261F46 /* Logger.hpp */,
 				9A7984A32A53A17400261F46 /* LogStream.hpp */,
+				9A7984662A53A17400261F46 /* material.h */,
+				9A7984702A53A17400261F46 /* material.inl */,
+				9A79845C2A53A17400261F46 /* MathFunctions.h */,
+				9A79845F2A53A17400261F46 /* matrix3x3.h */,
+				9A79848B2A53A17400261F46 /* matrix3x3.inl */,
+				9A7984542A53A17400261F46 /* matrix4x4.h */,
+				9A79847A2A53A17400261F46 /* matrix4x4.inl */,
+				9A7984772A53A17400261F46 /* MemoryIOWrapper.h */,
+				9A7984722A53A17400261F46 /* mesh.h */,
+				9A7984712A53A17400261F46 /* metadata.h */,
+				9A7984682A53A17400261F46 /* NullLogger.hpp */,
+				9A7984832A53A17400261F46 /* ObjMaterial.h */,
+				9A79844F2A53A17400261F46 /* ParsingUtils.h */,
+				9A7984812A53A17400261F46 /* pbrmaterial.h */,
+				9A79848D2A53A17400261F46 /* port */,
+				9A7984862A53A17400261F46 /* postprocess.h */,
+				9A7984912A53A17400261F46 /* Profiler.h */,
+				9A79847C2A53A17400261F46 /* ProgressHandler.hpp */,
+				9A79848C2A53A17400261F46 /* qnan.h */,
+				9A79846A2A53A17400261F46 /* quaternion.h */,
+				9A79844C2A53A17400261F46 /* quaternion.inl */,
+				9A7984582A53A17400261F46 /* RemoveComments.h */,
+				9A7984A22A53A17400261F46 /* scene.h */,
+				9A7984652A53A17400261F46 /* SceneCombiner.h */,
+				9A79849C2A53A17400261F46 /* SGSpatialSort.h */,
+				9A79844A2A53A17400261F46 /* SkeletonMeshBuilder.h */,
+				9A7984992A53A17400261F46 /* SmallVector.h */,
+				9A7984692A53A17400261F46 /* SmoothingGroups.h */,
+				9A79849E2A53A17400261F46 /* SmoothingGroups.inl */,
+				9A7984762A53A17400261F46 /* SpatialSort.h */,
+				9A7984802A53A17400261F46 /* StandardShapes.h */,
+				9A7984472A53A17400261F46 /* StreamReader.h */,
+				9A79847E2A53A17400261F46 /* StreamWriter.h */,
+				9A7984532A53A17400261F46 /* StringComparison.h */,
+				9A7984612A53A17400261F46 /* StringUtils.h */,
+				9A79844E2A53A17400261F46 /* Subdivision.h */,
+				9A7984882A53A17400261F46 /* texture.h */,
+				9A7984942A53A17400261F46 /* TinyFormatter.h */,
+				9A79845B2A53A17400261F46 /* types.h */,
+				9A7984592A53A17400261F46 /* vector2.h */,
+				9A7984792A53A17400261F46 /* vector2.inl */,
+				9A79849F2A53A17400261F46 /* vector3.h */,
+				9A79847B2A53A17400261F46 /* vector3.inl */,
+				9A7984502A53A17400261F46 /* version.h */,
+				9A79844B2A53A17400261F46 /* Vertex.h */,
+				9A7984522A53A17400261F46 /* XmlParser.h */,
+				9A7984512A53A17400261F46 /* XMLTools.h */,
+				9A7984892A53A17400261F46 /* ZipArchiveIOSystem.h */,
 			);
 			path = assimp;
 			sourceTree = "<group>";
@@ -2118,20 +2197,18 @@
 			isa = PBXGroup;
 			children = (
 				9A7986812A53A17600261F46 /* IFCBoolean.cpp */,
-				9A7986822A53A17600261F46 /* IFCOpenings.cpp */,
-				9A7986832A53A17600261F46 /* IFCLoader.cpp */,
-				9A7986842A53A17600261F46 /* IFCMaterial.cpp */,
-				9A7986852A53A17600261F46 /* IFCUtil.cpp */,
-				9A7986862A53A17600261F46 /* IFCReaderGen_4.h */,
-				9A7986872A53A17600261F46 /* IFCProfile.cpp */,
-				9A7986882A53A17600261F46 /* IFCGeometry.cpp */,
-				9A7986892A53A17600261F46 /* IFCReaderGen1_2x3.cpp */,
-				9A79868A2A53A17600261F46 /* IFCReaderGen_2x3.h */,
-				9A79868B2A53A17600261F46 /* IFCReaderGen_4.cpp */,
 				9A79868C2A53A17600261F46 /* IFCCurve.cpp */,
-				9A79868D2A53A17600261F46 /* IFCUtil.h */,
-				9A79868E2A53A17600261F46 /* IFCReaderGen2_2x3.cpp */,
+				9A7986882A53A17600261F46 /* IFCGeometry.cpp */,
+				9A7986832A53A17600261F46 /* IFCLoader.cpp */,
 				9A79868F2A53A17600261F46 /* IFCLoader.h */,
+				9A7986842A53A17600261F46 /* IFCMaterial.cpp */,
+				9A7986822A53A17600261F46 /* IFCOpenings.cpp */,
+				9A7986872A53A17600261F46 /* IFCProfile.cpp */,
+				9A79868A2A53A17600261F46 /* IFCReaderGen_2x3.h */,
+				9A7986892A53A17600261F46 /* IFCReaderGen1_2x3.cpp */,
+				9A79868E2A53A17600261F46 /* IFCReaderGen2_2x3.cpp */,
+				9A7986852A53A17600261F46 /* IFCUtil.cpp */,
+				9A79868D2A53A17600261F46 /* IFCUtil.h */,
 			);
 			path = IFC;
 			sourceTree = "<group>";
@@ -2162,6 +2239,37 @@
 				9A7986992A53A17600261F46 /* MaterialSystem.cpp */,
 			);
 			path = Material;
+			sourceTree = "<group>";
+		};
+		9A809CCF2A5F789500FCA9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A809CD32A5F789500FCA9FD /* libpolyclipping.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A809CD52A5F78BA00FCA9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A809CDB2A5F78F000FCA9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A809CDF2A5F78F100FCA9FD /* libpoly2tri.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A809D052A5F7A5500FCA9FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2399,7 +2507,6 @@
 				9A798D5A2A53A18100261F46 /* ByteSwapper.h in Headers */,
 				9A798E7A2A53A18200261F46 /* glTF2Importer.h in Headers */,
 				9A798DCA2A53A18100261F46 /* Win32DebugLogStream.h in Headers */,
-				9A798F482A53A18400261F46 /* IFCReaderGen_4.h in Headers */,
 				9A798F152A53A18300261F46 /* SIBImporter.h in Headers */,
 				9A798DB42A53A18100261F46 /* StbCommon.h in Headers */,
 				9A798D852A53A18100261F46 /* CreateAnimMesh.h in Headers */,
@@ -2485,6 +2592,10 @@
 			buildRules = (
 			);
 			dependencies = (
+				9A809D002A5F7A3F00FCA9FD /* PBXTargetDependency */,
+				9A809D022A5F7A3F00FCA9FD /* PBXTargetDependency */,
+				9A809D042A5F7A3F00FCA9FD /* PBXTargetDependency */,
+				9A6A55CE2A5E04C200A448BF /* PBXTargetDependency */,
 			);
 			name = assimp;
 			productName = assimp;
@@ -2517,12 +2628,61 @@
 			mainGroup = 9A797F312A53A0B600261F46;
 			productRefGroup = 9A797F3B2A53A0B600261F46 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9A6A55A72A5E019700A448BF /* Products */;
+					ProjectRef = 9A6A55A62A5E019700A448BF /* minizip.xcodeproj */;
+				},
+				{
+					ProductGroup = 9A809CD52A5F78BA00FCA9FD /* Products */;
+					ProjectRef = 9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */;
+				},
+				{
+					ProductGroup = 9A809CDB2A5F78F000FCA9FD /* Products */;
+					ProjectRef = 9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */;
+				},
+				{
+					ProductGroup = 9A809CCF2A5F789500FCA9FD /* Products */;
+					ProjectRef = 9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9A797F392A53A0B600261F46 /* assimp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9A6A55AB2A5E019800A448BF /* libminizip.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libminizip.dylib;
+			remoteRef = 9A6A55AA2A5E019800A448BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A809CD32A5F789500FCA9FD /* libpolyclipping.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libpolyclipping.dylib;
+			remoteRef = 9A809CD22A5F789500FCA9FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libopenddlparser.dylib;
+			remoteRef = 9A809CD82A5F78BA00FCA9FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A809CDF2A5F78F100FCA9FD /* libpoly2tri.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libpoly2tri.dylib;
+			remoteRef = 9A809CDE2A5F78F100FCA9FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A797F372A53A0B600261F46 /* Sources */ = {
@@ -2601,7 +2761,6 @@
 				9A798F012A53A18300261F46 /* X3DImporter_Metadata.cpp in Sources */,
 				9A798E402A53A18200261F46 /* ObjExporter.cpp in Sources */,
 				9A798F002A53A18300261F46 /* X3DImporter.cpp in Sources */,
-				9A798F4D2A53A18400261F46 /* IFCReaderGen_4.cpp in Sources */,
 				9A798F082A53A18300261F46 /* X3DExporter.cpp in Sources */,
 				9A798F0F2A53A18300261F46 /* X3DImporter_Rendering.cpp in Sources */,
 				9A798EFA2A53A18300261F46 /* 3DSLoader.cpp in Sources */,
@@ -2612,7 +2771,6 @@
 				9A798F042A53A18300261F46 /* X3DGeoHelper.cpp in Sources */,
 				9A798EAB2A53A18300261F46 /* FBXDeformer.cpp in Sources */,
 				9A798E932A53A18300261F46 /* FBXExportProperty.cpp in Sources */,
-				9A798F132A53A18300261F46 /* C4DImporter.cpp in Sources */,
 				9A798EA52A53A18300261F46 /* FBXDocument.cpp in Sources */,
 				9A798E0E2A53A18200261F46 /* JoinVerticesProcess.cpp in Sources */,
 				9A798E902A53A18300261F46 /* FBXNodeAttribute.cpp in Sources */,
@@ -2748,6 +2906,29 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9A6A55CE2A5E04C200A448BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = minizip;
+			targetProxy = 9A6A55CD2A5E04C200A448BF /* PBXContainerItemProxy */;
+		};
+		9A809D002A5F7A3F00FCA9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openddlparser;
+			targetProxy = 9A809CFF2A5F7A3F00FCA9FD /* PBXContainerItemProxy */;
+		};
+		9A809D022A5F7A3F00FCA9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = poly2tri;
+			targetProxy = 9A809D012A5F7A3F00FCA9FD /* PBXContainerItemProxy */;
+		};
+		9A809D042A5F7A3F00FCA9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = polyclipping;
+			targetProxy = 9A809D032A5F7A3F00FCA9FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		9A797F3C2A53A0B600261F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2812,7 +2993,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(WorkspaceDir)/port/include";
 				INSTALL_PATH = "@executable_path";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
@@ -2828,29 +3008,17 @@
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"$(WorkspaceDir)/operating_system",
-					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
-					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
-					"$(HOME)/operating_system/operating_system/include",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
 					"$(WorkspaceDir)/port/include",
+					"$(PROJECT_DIR)/assimp/code",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					.,
-					"$(WorkspaceDir)/source",
-					"$(WorkspaceDir)/source/include",
-					"$(WorkspaceDir)/source/app",
-					"$(WorkspaceDir)/source/app/include",
-					"$(WorkspaceDir)/operating_system",
-					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
-					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration/$(PROJECT_NAME)",
-					"$(WorkspaceDir)/port/_",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
 					"$(WorkspaceDir)/port/include",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/..",
-					"$(PROJECT_DIR)/../..",
-					"$(HOME)/sensitive/sensitive/include",
 					"$(PROJECT_DIR)/assimp/code",
 				);
 				USE_HEADERMAP = NO;
@@ -2919,7 +3087,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(WorkspaceDir)/port/include";
 				INSTALL_PATH = "@executable_path";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
@@ -2933,29 +3100,17 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"$(WorkspaceDir)/operating_system",
-					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
-					"$(WorkspaceDir)/source/port/include/operating_system/$(PLATFORM_MODIFIER)",
-					"$(HOME)/operating_system/operating_system/include",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
 					"$(WorkspaceDir)/port/include",
+					"$(PROJECT_DIR)/assimp/code",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					.,
-					"$(WorkspaceDir)/source",
-					"$(WorkspaceDir)/source/include",
-					"$(WorkspaceDir)/source/app",
-					"$(WorkspaceDir)/source/app/include",
-					"$(WorkspaceDir)/operating_system",
-					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
-					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration/$(PROJECT_NAME)",
-					"$(WorkspaceDir)/port/_",
+					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
 					"$(WorkspaceDir)/port/include",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/..",
-					"$(PROJECT_DIR)/../..",
-					"$(HOME)/sensitive/sensitive/include",
 					"$(PROJECT_DIR)/assimp/code",
 				);
 				USE_HEADERMAP = NO;
