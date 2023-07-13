@@ -519,6 +519,7 @@
 		9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */; };
 		9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CDF2A5F78F100FCA9FD /* libpoly2tri.dylib */; };
 		9A809D092A5F7A7100FCA9FD /* libpolyclipping.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD32A5F789500FCA9FD /* libpolyclipping.dylib */; };
+		9A809D152A5FEEA200FCA9FD /* pugixml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D122A5FE28000FCA9FD /* pugixml.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -577,6 +578,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9A809C962A5F757E00FCA9FD;
 			remoteInfo = polyclipping;
+		};
+		9A809D112A5FE28000FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A72EEC22A3D53F1009743AD;
+			remoteInfo = pugixml;
+		};
+		9A809D132A5FEE9300FCA9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A72EEC12A3D53F1009743AD;
+			remoteInfo = pugixml;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1111,6 +1126,7 @@
 		9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = polyclipping.xcodeproj; path = ../../graphics/polyclipping/polyclipping.xcodeproj; sourceTree = "<group>"; };
 		9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openddlparser.xcodeproj; path = ../../base/openddlparser/openddlparser.xcodeproj; sourceTree = "<group>"; };
 		9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = poly2tri.xcodeproj; path = ../poly2tri/poly2tri.xcodeproj; sourceTree = "<group>"; };
+		9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pugixml.xcodeproj; path = ../../base/pugixml/pugixml.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1118,6 +1134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A809D152A5FEEA200FCA9FD /* pugixml.dylib in Frameworks */,
 				9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */,
 				9A809D092A5F7A7100FCA9FD /* libpolyclipping.dylib in Frameworks */,
 				9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */,
@@ -1143,6 +1160,7 @@
 				9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */,
 				9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */,
 				9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */,
+				9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */,
 				9A797F4B2A53A16E00261F46 /* assimp */,
 				9A797F3B2A53A0B600261F46 /* Products */,
 				9A809D052A5F7A5500FCA9FD /* Frameworks */,
@@ -2272,6 +2290,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9A809D0E2A5FE28000FCA9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A809D122A5FE28000FCA9FD /* pugixml.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2592,6 +2618,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9A809D142A5FEE9300FCA9FD /* PBXTargetDependency */,
 				9A809D002A5F7A3F00FCA9FD /* PBXTargetDependency */,
 				9A809D022A5F7A3F00FCA9FD /* PBXTargetDependency */,
 				9A809D042A5F7A3F00FCA9FD /* PBXTargetDependency */,
@@ -2645,6 +2672,10 @@
 					ProductGroup = 9A809CCF2A5F789500FCA9FD /* Products */;
 					ProjectRef = 9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */;
 				},
+				{
+					ProductGroup = 9A809D0E2A5FE28000FCA9FD /* Products */;
+					ProjectRef = 9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -2680,6 +2711,14 @@
 			fileType = "compiled.mach-o.dylib";
 			path = libpoly2tri.dylib;
 			remoteRef = 9A809CDE2A5F78F100FCA9FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A809D122A5FE28000FCA9FD /* pugixml.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			name = pugixml.dylib;
+			path = libpugixml.dylib;
+			remoteRef = 9A809D112A5FE28000FCA9FD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2926,6 +2965,11 @@
 			isa = PBXTargetDependency;
 			name = polyclipping;
 			targetProxy = 9A809D032A5F7A3F00FCA9FD /* PBXContainerItemProxy */;
+		};
+		9A809D142A5FEE9300FCA9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pugixml;
+			targetProxy = 9A809D132A5FEE9300FCA9FD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
