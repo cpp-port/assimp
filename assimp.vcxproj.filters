@@ -1761,5 +1761,8 @@
     <None Include="assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl">
       <Filter>AssetLib\glTF2</Filter>
     </None>
+    <None Include="assimp.def">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
