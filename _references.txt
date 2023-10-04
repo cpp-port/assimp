@@ -1,0 +1,5 @@
+port/base/minizip
+port/base/openddlparser
+port/base/pugixml
+port/graphics/clipper
+port/graphics3d/poly2tri
