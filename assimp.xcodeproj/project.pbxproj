@@ -518,10 +518,10 @@
 		9A809D062A5F7A5500FCA9FD /* libminizip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6A55AB2A5E019800A448BF /* libminizip.dylib */; };
 		9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */; };
 		9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CDF2A5F78F100FCA9FD /* libpoly2tri.dylib */; };
-		9A809D092A5F7A7100FCA9FD /* libpolyclipping.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD32A5F789500FCA9FD /* libpolyclipping.dylib */; };
 		9A809D152A5FEEA200FCA9FD /* pugixml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D122A5FE28000FCA9FD /* pugixml.dylib */; };
 		9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D1C2A5FF40500FCA9FD /* libz.tbd */; };
 		9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D332A5FF48500FCA9FD /* libzip.dylib */; };
+		9A88DAEB2ACDD1CD00A34627 /* libpolyclipping.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88DAE62ACDCD0A00A34627 /* libpolyclipping.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -538,13 +538,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9A6A559E2A5E013F00A448BF;
 			remoteInfo = minizip;
-		};
-		9A809CD22A5F789500FCA9FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9A809C972A5F757E00FCA9FD;
-			remoteInfo = polyclipping;
 		};
 		9A809CD82A5F78BA00FCA9FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -574,13 +567,6 @@
 			remoteGlobalIDString = 9A809CB62A5F764400FCA9FD;
 			remoteInfo = poly2tri;
 		};
-		9A809D032A5F7A3F00FCA9FD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9A809C962A5F757E00FCA9FD;
-			remoteInfo = polyclipping;
-		};
 		9A809D112A5FE28000FCA9FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */;
@@ -608,6 +594,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9A809D262A5FF45900FCA9FD;
 			remoteInfo = zip;
+		};
+		9A88DAE52ACDCD0A00A34627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A809C972A5F757E00FCA9FD;
+			remoteInfo = polyclipping;
+		};
+		9A88DAE72ACDCD5500A34627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A809C962A5F757E00FCA9FD;
+			remoteInfo = clipper;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1139,7 +1139,6 @@
 		9A7986962A53A17600261F46 /* OFFLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OFFLoader.cpp; sourceTree = "<group>"; };
 		9A7986982A53A17600261F46 /* MaterialSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialSystem.h; sourceTree = "<group>"; };
 		9A7986992A53A17600261F46 /* MaterialSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaterialSystem.cpp; sourceTree = "<group>"; };
-		9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = polyclipping.xcodeproj; path = ../../graphics/polyclipping/polyclipping.xcodeproj; sourceTree = "<group>"; };
 		9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openddlparser.xcodeproj; path = ../../base/openddlparser/openddlparser.xcodeproj; sourceTree = "<group>"; };
 		9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = poly2tri.xcodeproj; path = ../poly2tri/poly2tri.xcodeproj; sourceTree = "<group>"; };
 		9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pugixml.xcodeproj; path = ../../base/pugixml/pugixml.xcodeproj; sourceTree = "<group>"; };
@@ -1147,6 +1146,7 @@
 		9A809D2E2A5FF48400FCA9FD /* zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zip.xcodeproj; path = ../../base/zip/zip.xcodeproj; sourceTree = "<group>"; };
 		9A809F772A6024AC00FCA9FD /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
 		9A809F782A6024AD00FCA9FD /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
+		9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clipper.xcodeproj; path = ../../graphics/clipper/clipper.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1154,11 +1154,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A88DAEB2ACDD1CD00A34627 /* libpolyclipping.dylib in Frameworks */,
 				9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */,
 				9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */,
 				9A809D152A5FEEA200FCA9FD /* pugixml.dylib in Frameworks */,
 				9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */,
-				9A809D092A5F7A7100FCA9FD /* libpolyclipping.dylib in Frameworks */,
 				9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */,
 				9A809D062A5F7A5500FCA9FD /* libminizip.dylib in Frameworks */,
 			);
@@ -1178,10 +1178,10 @@
 		9A797F312A53A0B600261F46 = {
 			isa = PBXGroup;
 			children = (
+				9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */,
 				9A6A55A62A5E019700A448BF /* minizip.xcodeproj */,
 				9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */,
 				9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */,
-				9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */,
 				9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */,
 				9A809D2E2A5FF48400FCA9FD /* zip.xcodeproj */,
 				9A797F4B2A53A16E00261F46 /* assimp */,
@@ -2284,14 +2284,6 @@
 			path = Material;
 			sourceTree = "<group>";
 		};
-		9A809CCF2A5F789500FCA9FD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9A809CD32A5F789500FCA9FD /* libpolyclipping.dylib */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9A809CD52A5F78BA00FCA9FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -2328,6 +2320,14 @@
 			isa = PBXGroup;
 			children = (
 				9A809D332A5FF48500FCA9FD /* libzip.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A88DAE22ACDCD0A00A34627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A88DAE62ACDCD0A00A34627 /* libpolyclipping.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2652,11 +2652,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				9A88DAE82ACDCD5500A34627 /* PBXTargetDependency */,
 				9A809D392A5FF4D800FCA9FD /* PBXTargetDependency */,
 				9A809D142A5FEE9300FCA9FD /* PBXTargetDependency */,
 				9A809D002A5F7A3F00FCA9FD /* PBXTargetDependency */,
 				9A809D022A5F7A3F00FCA9FD /* PBXTargetDependency */,
-				9A809D042A5F7A3F00FCA9FD /* PBXTargetDependency */,
 				9A6A55CE2A5E04C200A448BF /* PBXTargetDependency */,
 			);
 			name = assimp;
@@ -2692,6 +2692,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 9A88DAE22ACDCD0A00A34627 /* Products */;
+					ProjectRef = 9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */;
+				},
+				{
 					ProductGroup = 9A6A55A72A5E019700A448BF /* Products */;
 					ProjectRef = 9A6A55A62A5E019700A448BF /* minizip.xcodeproj */;
 				},
@@ -2702,10 +2706,6 @@
 				{
 					ProductGroup = 9A809CDB2A5F78F000FCA9FD /* Products */;
 					ProjectRef = 9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */;
-				},
-				{
-					ProductGroup = 9A809CCF2A5F789500FCA9FD /* Products */;
-					ProjectRef = 9A809CCE2A5F789500FCA9FD /* polyclipping.xcodeproj */;
 				},
 				{
 					ProductGroup = 9A809D0E2A5FE28000FCA9FD /* Products */;
@@ -2729,13 +2729,6 @@
 			fileType = "compiled.mach-o.dylib";
 			path = libminizip.dylib;
 			remoteRef = 9A6A55AA2A5E019800A448BF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		9A809CD32A5F789500FCA9FD /* libpolyclipping.dylib */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.dylib";
-			path = libpolyclipping.dylib;
-			remoteRef = 9A809CD22A5F789500FCA9FD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */ = {
@@ -2765,6 +2758,13 @@
 			fileType = "compiled.mach-o.dylib";
 			path = libzip.dylib;
 			remoteRef = 9A809D322A5FF48500FCA9FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A88DAE62ACDCD0A00A34627 /* libpolyclipping.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libpolyclipping.dylib;
+			remoteRef = 9A88DAE52ACDCD0A00A34627 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -3007,11 +3007,6 @@
 			name = poly2tri;
 			targetProxy = 9A809D012A5F7A3F00FCA9FD /* PBXContainerItemProxy */;
 		};
-		9A809D042A5F7A3F00FCA9FD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = polyclipping;
-			targetProxy = 9A809D032A5F7A3F00FCA9FD /* PBXContainerItemProxy */;
-		};
 		9A809D142A5FEE9300FCA9FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = pugixml;
@@ -3021,6 +3016,11 @@
 			isa = PBXTargetDependency;
 			name = zip;
 			targetProxy = 9A809D382A5FF4D800FCA9FD /* PBXContainerItemProxy */;
+		};
+		9A88DAE82ACDCD5500A34627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = clipper;
+			targetProxy = 9A88DAE72ACDCD5500A34627 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
