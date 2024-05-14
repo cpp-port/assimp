@@ -518,10 +518,10 @@
 		9A809D062A5F7A5500FCA9FD /* libminizip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6A55AB2A5E019800A448BF /* libminizip.dylib */; };
 		9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */; };
 		9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CDF2A5F78F100FCA9FD /* libpoly2tri.dylib */; };
-		9A809D152A5FEEA200FCA9FD /* pugixml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D122A5FE28000FCA9FD /* pugixml.dylib */; };
+		9A809D152A5FEEA200FCA9FD /* libpugixml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D122A5FE28000FCA9FD /* libpugixml.dylib */; };
 		9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D1C2A5FF40500FCA9FD /* libz.tbd */; };
 		9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D332A5FF48500FCA9FD /* libzip.dylib */; };
-		9A88DAEB2ACDD1CD00A34627 /* libpolyclipping.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88DAE62ACDCD0A00A34627 /* libpolyclipping.dylib */; };
+		9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1154,10 +1154,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A88DAEB2ACDD1CD00A34627 /* libpolyclipping.dylib in Frameworks */,
+				9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */,
 				9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */,
 				9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */,
-				9A809D152A5FEEA200FCA9FD /* pugixml.dylib in Frameworks */,
+				9A809D152A5FEEA200FCA9FD /* libpugixml.dylib in Frameworks */,
 				9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */,
 				9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */,
 				9A809D062A5F7A5500FCA9FD /* libminizip.dylib in Frameworks */,
@@ -2311,7 +2311,7 @@
 		9A809D0E2A5FE28000FCA9FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A809D122A5FE28000FCA9FD /* pugixml.dylib */,
+				9A809D122A5FE28000FCA9FD /* libpugixml.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2327,7 +2327,7 @@
 		9A88DAE22ACDCD0A00A34627 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A88DAE62ACDCD0A00A34627 /* libpolyclipping.dylib */,
+				9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2745,10 +2745,9 @@
 			remoteRef = 9A809CDE2A5F78F100FCA9FD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9A809D122A5FE28000FCA9FD /* pugixml.dylib */ = {
+		9A809D122A5FE28000FCA9FD /* libpugixml.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			name = pugixml.dylib;
 			path = libpugixml.dylib;
 			remoteRef = 9A809D112A5FE28000FCA9FD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -2760,10 +2759,10 @@
 			remoteRef = 9A809D322A5FF48500FCA9FD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9A88DAE62ACDCD0A00A34627 /* libpolyclipping.dylib */ = {
+		9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			path = libpolyclipping.dylib;
+			path = libclipper.dylib;
 			remoteRef = 9A88DAE52ACDCD0A00A34627 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -3079,7 +3078,7 @@
 					HAVE_CONFIG_H,
 					RAPIDJSON_HAS_STDSTRING,
 					ASSIMP_BUILD_NO_OWN_ZLIB,
-					ASSIMP_USE_HUNTER,
+					ASSIMP_DONT_USE_HUNTER,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -3106,8 +3105,10 @@
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include/configuration_selection/$(CONFIGURATION)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
+					"$(WorkspaceDir)/port/include/minizip",
 					"$(WorkspaceDir)/port/include",
 					"$(PROJECT_DIR)/assimp/code",
+					"$(PROJECT_DIR)/assimp",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					.,
@@ -3176,7 +3177,7 @@
 					HAVE_CONFIG_H,
 					RAPIDJSON_HAS_STDSTRING,
 					ASSIMP_BUILD_NO_OWN_ZLIB,
-					ASSIMP_USE_HUNTER,
+					ASSIMP_DONT_USE_HUNTER,
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -3200,8 +3201,10 @@
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include/configuration_selection/$(CONFIGURATION)",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/include",
 					"$(WorkspaceDir)/operating_system/operating_system-$(PLATFORM_MODIFIER)/configuration",
+					"$(WorkspaceDir)/port/include/minizip",
 					"$(WorkspaceDir)/port/include",
 					"$(PROJECT_DIR)/assimp/code",
+					"$(PROJECT_DIR)/assimp",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					.,
