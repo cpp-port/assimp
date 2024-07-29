@@ -522,6 +522,16 @@
 		9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D1C2A5FF40500FCA9FD /* libz.tbd */; };
 		9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D332A5FF48500FCA9FD /* libzip.dylib */; };
 		9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */; };
+		9ACBD26E2C5715EA00480D13 /* USDLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2642C5715EA00480D13 /* USDLoader.cpp */; };
+		9ACBD26F2C5715EA00480D13 /* USDLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD2652C5715EA00480D13 /* USDLoader.h */; };
+		9ACBD2702C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */; };
+		9ACBD2712C5715EA00480D13 /* USDLoaderImplTinyusdz.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD2672C5715EA00480D13 /* USDLoaderImplTinyusdz.h */; };
+		9ACBD2722C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2682C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp */; };
+		9ACBD2732C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD2692C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.h */; };
+		9ACBD2742C5715EA00480D13 /* USDLoaderUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD26A2C5715EA00480D13 /* USDLoaderUtil.cpp */; };
+		9ACBD2752C5715EA00480D13 /* USDLoaderUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD26B2C5715EA00480D13 /* USDLoaderUtil.h */; };
+		9ACBD2762C5715EA00480D13 /* USDPreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD26C2C5715EA00480D13 /* USDPreprocessor.h */; };
+		9ACBD8DA2C5726B200480D13 /* libtinyusdz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACBD28C2C57182C00480D13 /* libtinyusdz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -608,6 +618,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9A809C962A5F757E00FCA9FD;
 			remoteInfo = clipper;
+		};
+		9ACBD28B2C57182C00480D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACBD2872C57182C00480D13 /* tinyusdz.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9ACBD2802C5717BD00480D13;
+			remoteInfo = tinyusdz;
+		};
+		9ACBD8D52C5718F100480D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACBD2872C57182C00480D13 /* tinyusdz.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACBD27F2C5717BD00480D13;
+			remoteInfo = tinyusdz;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1147,6 +1171,16 @@
 		9A809F772A6024AC00FCA9FD /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
 		9A809F782A6024AD00FCA9FD /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
 		9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clipper.xcodeproj; path = ../../graphics/clipper/clipper.xcodeproj; sourceTree = "<group>"; };
+		9ACBD2642C5715EA00480D13 /* USDLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoader.cpp; sourceTree = "<group>"; };
+		9ACBD2652C5715EA00480D13 /* USDLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDLoader.h; sourceTree = "<group>"; };
+		9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoaderImplTinyusdz.cpp; sourceTree = "<group>"; };
+		9ACBD2672C5715EA00480D13 /* USDLoaderImplTinyusdz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDLoaderImplTinyusdz.h; sourceTree = "<group>"; };
+		9ACBD2682C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoaderImplTinyusdzHelper.cpp; sourceTree = "<group>"; };
+		9ACBD2692C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDLoaderImplTinyusdzHelper.h; sourceTree = "<group>"; };
+		9ACBD26A2C5715EA00480D13 /* USDLoaderUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoaderUtil.cpp; sourceTree = "<group>"; };
+		9ACBD26B2C5715EA00480D13 /* USDLoaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDLoaderUtil.h; sourceTree = "<group>"; };
+		9ACBD26C2C5715EA00480D13 /* USDPreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDPreprocessor.h; sourceTree = "<group>"; };
+		9ACBD2872C57182C00480D13 /* tinyusdz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tinyusdz.xcodeproj; path = ../tinyusdz/tinyusdz.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1154,6 +1188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ACBD8DA2C5726B200480D13 /* libtinyusdz.dylib in Frameworks */,
 				9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */,
 				9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */,
 				9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */,
@@ -1183,6 +1218,7 @@
 				9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */,
 				9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */,
 				9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */,
+				9ACBD2872C57182C00480D13 /* tinyusdz.xcodeproj */,
 				9A809D2E2A5FF48400FCA9FD /* zip.xcodeproj */,
 				9A797F4B2A53A16E00261F46 /* assimp */,
 				9A797F3B2A53A0B600261F46 /* Products */,
@@ -1572,6 +1608,7 @@
 				9A7985ED2A53A17500261F46 /* STL */,
 				9A7986052A53A17500261F46 /* Terragen */,
 				9A79867D2A53A17600261F46 /* Unreal */,
+				9ACBD26D2C5715EA00480D13 /* USD */,
 				9A7986752A53A17600261F46 /* X */,
 				9A7986302A53A17500261F46 /* X3D */,
 				9A7985E72A53A17500261F46 /* XGL */,
@@ -2332,6 +2369,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9ACBD26D2C5715EA00480D13 /* USD */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBD2642C5715EA00480D13 /* USDLoader.cpp */,
+				9ACBD2652C5715EA00480D13 /* USDLoader.h */,
+				9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */,
+				9ACBD2672C5715EA00480D13 /* USDLoaderImplTinyusdz.h */,
+				9ACBD2682C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp */,
+				9ACBD2692C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.h */,
+				9ACBD26A2C5715EA00480D13 /* USDLoaderUtil.cpp */,
+				9ACBD26B2C5715EA00480D13 /* USDLoaderUtil.h */,
+				9ACBD26C2C5715EA00480D13 /* USDPreprocessor.h */,
+			);
+			path = USD;
+			sourceTree = "<group>";
+		};
+		9ACBD2882C57182C00480D13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ACBD28C2C57182C00480D13 /* libtinyusdz.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2373,6 +2434,7 @@
 				9A798D962A53A18100261F46 /* ZipArchiveIOSystem.h in Headers */,
 				9A798DD22A53A18100261F46 /* Importer.h in Headers */,
 				9A798F1D2A53A18400261F46 /* IRRMeshLoader.h in Headers */,
+				9ACBD26F2C5715EA00480D13 /* USDLoader.h in Headers */,
 				9A798D912A53A18100261F46 /* anim.h in Headers */,
 				9A798D7C2A53A18100261F46 /* SmoothingGroups.h in Headers */,
 				9A798D6F2A53A18100261F46 /* types.h in Headers */,
@@ -2482,12 +2544,15 @@
 				9A798D6B2A53A18100261F46 /* GenericProperty.h in Headers */,
 				9A798DE42A53A18200261F46 /* PretransformVertices.h in Headers */,
 				9A798EEC2A53A18300261F46 /* 3MFTypes.h in Headers */,
+				9ACBD2712C5715EA00480D13 /* USDLoaderImplTinyusdz.h in Headers */,
+				9ACBD2762C5715EA00480D13 /* USDPreprocessor.h in Headers */,
 				9A798ED42A53A18300261F46 /* LWOAnimation.h in Headers */,
 				9A798DD72A53A18100261F46 /* assbin_chunks.h in Headers */,
 				9A798D622A53A18100261F46 /* Subdivision.h in Headers */,
 				9A798F2F2A53A18400261F46 /* BlenderDNA.h in Headers */,
 				9A798F072A53A18300261F46 /* X3DImporter_Node.hpp in Headers */,
 				9A798E352A53A18200261F46 /* mesh_splitter.h in Headers */,
+				9ACBD2732C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.h in Headers */,
 				9A798E152A53A18200261F46 /* ProcessHelper.h in Headers */,
 				9A798E222A53A18200261F46 /* GeometryUtils.h in Headers */,
 				9A798D5F2A53A18100261F46 /* SkeletonMeshBuilder.h in Headers */,
@@ -2566,6 +2631,7 @@
 				9A798EF72A53A18300261F46 /* M3DWrapper.h in Headers */,
 				9A798D8B2A53A18100261F46 /* StreamWriter.h in Headers */,
 				9A798D5A2A53A18100261F46 /* ByteSwapper.h in Headers */,
+				9ACBD2752C5715EA00480D13 /* USDLoaderUtil.h in Headers */,
 				9A798E7A2A53A18200261F46 /* glTF2Importer.h in Headers */,
 				9A798DCA2A53A18100261F46 /* Win32DebugLogStream.h in Headers */,
 				9A798F152A53A18300261F46 /* SIBImporter.h in Headers */,
@@ -2652,6 +2718,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9ACBD8D62C5718F100480D13 /* PBXTargetDependency */,
 				9A88DAE82ACDCD5500A34627 /* PBXTargetDependency */,
 				9A809D392A5FF4D800FCA9FD /* PBXTargetDependency */,
 				9A809D142A5FEE9300FCA9FD /* PBXTargetDependency */,
@@ -2712,6 +2779,10 @@
 					ProjectRef = 9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */;
 				},
 				{
+					ProductGroup = 9ACBD2882C57182C00480D13 /* Products */;
+					ProjectRef = 9ACBD2872C57182C00480D13 /* tinyusdz.xcodeproj */;
+				},
+				{
 					ProductGroup = 9A809D2F2A5FF48400FCA9FD /* Products */;
 					ProjectRef = 9A809D2E2A5FF48400FCA9FD /* zip.xcodeproj */;
 				},
@@ -2764,6 +2835,13 @@
 			fileType = "compiled.mach-o.dylib";
 			path = libclipper.dylib;
 			remoteRef = 9A88DAE52ACDCD0A00A34627 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9ACBD28C2C57182C00480D13 /* libtinyusdz.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libtinyusdz.dylib;
+			remoteRef = 9ACBD28B2C57182C00480D13 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -2820,6 +2898,7 @@
 				9A798E1B2A53A18200261F46 /* TextureTransform.cpp in Sources */,
 				9A798E482A53A18200261F46 /* MD5Loader.cpp in Sources */,
 				9A798ED52A53A18300261F46 /* LWOLoader.cpp in Sources */,
+				9ACBD2702C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp in Sources */,
 				9A798E3E2A53A18200261F46 /* ObjFileImporter.cpp in Sources */,
 				9A798EAA2A53A18300261F46 /* FBXMeshGeometry.cpp in Sources */,
 				9A798DEF2A53A18200261F46 /* ImproveCacheLocality.cpp in Sources */,
@@ -2831,9 +2910,11 @@
 				9A798ED92A53A18300261F46 /* STEPFileEncoding.cpp in Sources */,
 				9A798F3B2A53A18400261F46 /* XFileParser.cpp in Sources */,
 				9A798EC92A53A18300261F46 /* STLExporter.cpp in Sources */,
+				9ACBD2742C5715EA00480D13 /* USDLoaderUtil.cpp in Sources */,
 				9A798EF22A53A18300261F46 /* M3DImporter.cpp in Sources */,
 				9A798ED72A53A18300261F46 /* LWOBLoader.cpp in Sources */,
 				9A798EDB2A53A18300261F46 /* STEPFileReader.cpp in Sources */,
+				9ACBD2722C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp in Sources */,
 				9A798E812A53A18200261F46 /* OpenGEXExporter.cpp in Sources */,
 				9A798E982A53A18300261F46 /* FBXAnimation.cpp in Sources */,
 				9A798DB92A53A18100261F46 /* Base64.cpp in Sources */,
@@ -2865,6 +2946,7 @@
 				9A798E6D2A53A18200261F46 /* OgreXmlSerializer.cpp in Sources */,
 				9A798E9A2A53A18300261F46 /* FBXBinaryTokenizer.cpp in Sources */,
 				9A798E942A53A18300261F46 /* FBXModel.cpp in Sources */,
+				9ACBD26E2C5715EA00480D13 /* USDLoader.cpp in Sources */,
 				9A798EB62A53A18300261F46 /* ColladaParser.cpp in Sources */,
 				9A798EFF2A53A18300261F46 /* X3DImporter_Networking.cpp in Sources */,
 				9A798F3F2A53A18400261F46 /* XFileImporter.cpp in Sources */,
@@ -3020,6 +3102,11 @@
 			isa = PBXTargetDependency;
 			name = clipper;
 			targetProxy = 9A88DAE72ACDCD5500A34627 /* PBXContainerItemProxy */;
+		};
+		9ACBD8D62C5718F100480D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyusdz;
+			targetProxy = 9ACBD8D52C5718F100480D13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
