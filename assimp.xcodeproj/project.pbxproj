@@ -638,7 +638,7 @@
 /* Begin PBXFileReference section */
 		9A203C292BF4F63400599878 /* C4DImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4DImporter.h; sourceTree = "<group>"; };
 		9A203C2A2BF4F63400599878 /* C4DImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C4DImporter.cpp; sourceTree = "<group>"; };
-		9A6A55A62A5E019700A448BF /* minizip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = minizip.xcodeproj; path = ../../base/minizip/minizip.xcodeproj; sourceTree = "<group>"; };
+		9A6A55A62A5E019700A448BF /* minizip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = minizip.xcodeproj; path = ../../base/minizip/minizip.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A797F3A2A53A0B600261F46 /* libassimp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libassimp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7984452A53A17400261F46 /* ByteSwapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteSwapper.h; sourceTree = "<group>"; };
 		9A7984462A53A17400261F46 /* IOSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IOSystem.hpp; sourceTree = "<group>"; };
@@ -1163,14 +1163,14 @@
 		9A7986962A53A17600261F46 /* OFFLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OFFLoader.cpp; sourceTree = "<group>"; };
 		9A7986982A53A17600261F46 /* MaterialSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialSystem.h; sourceTree = "<group>"; };
 		9A7986992A53A17600261F46 /* MaterialSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaterialSystem.cpp; sourceTree = "<group>"; };
-		9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openddlparser.xcodeproj; path = ../../base/openddlparser/openddlparser.xcodeproj; sourceTree = "<group>"; };
-		9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = poly2tri.xcodeproj; path = ../poly2tri/poly2tri.xcodeproj; sourceTree = "<group>"; };
-		9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pugixml.xcodeproj; path = ../../base/pugixml/pugixml.xcodeproj; sourceTree = "<group>"; };
+		9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openddlparser.xcodeproj; path = ../../base/openddlparser/openddlparser.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = poly2tri.xcodeproj; path = ../poly2tri/poly2tri.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pugixml.xcodeproj; path = ../../base/pugixml/pugixml.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A809D1C2A5FF40500FCA9FD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		9A809D2E2A5FF48400FCA9FD /* zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zip.xcodeproj; path = ../../base/zip/zip.xcodeproj; sourceTree = "<group>"; };
+		9A809D2E2A5FF48400FCA9FD /* zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zip.xcodeproj; path = ../../base/zip/zip.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A809F772A6024AC00FCA9FD /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
 		9A809F782A6024AD00FCA9FD /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
-		9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clipper.xcodeproj; path = ../../graphics/clipper/clipper.xcodeproj; sourceTree = "<group>"; };
+		9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clipper.xcodeproj; path = ../../graphics/clipper/clipper.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9ACBD2642C5715EA00480D13 /* USDLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoader.cpp; sourceTree = "<group>"; };
 		9ACBD2652C5715EA00480D13 /* USDLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDLoader.h; sourceTree = "<group>"; };
 		9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoaderImplTinyusdz.cpp; sourceTree = "<group>"; };
@@ -1180,7 +1180,7 @@
 		9ACBD26A2C5715EA00480D13 /* USDLoaderUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoaderUtil.cpp; sourceTree = "<group>"; };
 		9ACBD26B2C5715EA00480D13 /* USDLoaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDLoaderUtil.h; sourceTree = "<group>"; };
 		9ACBD26C2C5715EA00480D13 /* USDPreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDPreprocessor.h; sourceTree = "<group>"; };
-		9ACBD2872C57182C00480D13 /* tinyusdz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tinyusdz.xcodeproj; path = ../tinyusdz/tinyusdz.xcodeproj; sourceTree = "<group>"; };
+		9ACBD2872C57182C00480D13 /* tinyusdz.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tinyusdz.xcodeproj; path = ../tinyusdz/tinyusdz.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2739,6 +2739,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = "ca2 Software Development";
 				TargetAttributes = {
 					9A797F392A53A0B600261F46 = {
 						CreatedOnToolsVersion = 14.3.1;
