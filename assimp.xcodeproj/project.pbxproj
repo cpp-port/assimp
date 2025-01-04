@@ -515,6 +515,8 @@
 		9A798F562A53A18400261F46 /* OFFLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986962A53A17600261F46 /* OFFLoader.cpp */; };
 		9A798F572A53A18400261F46 /* MaterialSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7986982A53A17600261F46 /* MaterialSystem.h */; };
 		9A798F582A53A18400261F46 /* MaterialSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986992A53A17600261F46 /* MaterialSystem.cpp */; };
+		9A7BF2FD2D26C1E7009852B2 /* VrmlConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BF2FB2D26C1E7009852B2 /* VrmlConverter.cpp */; };
+		9A7BF2FE2D26C1E7009852B2 /* VrmlConverter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9A7BF2FA2D26C1E7009852B2 /* VrmlConverter.hpp */; };
 		9A809D062A5F7A5500FCA9FD /* libminizip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6A55AB2A5E019800A448BF /* libminizip.dylib */; };
 		9A809D072A5F7A5E00FCA9FD /* libopenddlparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */; };
 		9A809D082A5F7A7100FCA9FD /* libpoly2tri.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CDF2A5F78F100FCA9FD /* libpoly2tri.dylib */; };
@@ -1163,6 +1165,9 @@
 		9A7986962A53A17600261F46 /* OFFLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OFFLoader.cpp; sourceTree = "<group>"; };
 		9A7986982A53A17600261F46 /* MaterialSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialSystem.h; sourceTree = "<group>"; };
 		9A7986992A53A17600261F46 /* MaterialSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaterialSystem.cpp; sourceTree = "<group>"; };
+		9A7BF2F92D26C1E7009852B2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9A7BF2FA2D26C1E7009852B2 /* VrmlConverter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VrmlConverter.hpp; sourceTree = "<group>"; };
+		9A7BF2FB2D26C1E7009852B2 /* VrmlConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VrmlConverter.cpp; sourceTree = "<group>"; };
 		9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openddlparser.xcodeproj; path = ../../base/openddlparser/openddlparser.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A809CDA2A5F78F000FCA9FD /* poly2tri.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = poly2tri.xcodeproj; path = ../poly2tri/poly2tri.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pugixml.xcodeproj; path = ../../base/pugixml/pugixml.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -1609,6 +1614,7 @@
 				9A7986052A53A17500261F46 /* Terragen */,
 				9A79867D2A53A17600261F46 /* Unreal */,
 				9ACBD26D2C5715EA00480D13 /* USD */,
+				9A7BF2FC2D26C1E7009852B2 /* VRML */,
 				9A7986752A53A17600261F46 /* X */,
 				9A7986302A53A17500261F46 /* X3D */,
 				9A7985E72A53A17500261F46 /* XGL */,
@@ -2321,6 +2327,16 @@
 			path = Material;
 			sourceTree = "<group>";
 		};
+		9A7BF2FC2D26C1E7009852B2 /* VRML */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BF2F92D26C1E7009852B2 /* README.md */,
+				9A7BF2FA2D26C1E7009852B2 /* VrmlConverter.hpp */,
+				9A7BF2FB2D26C1E7009852B2 /* VrmlConverter.cpp */,
+			);
+			path = VRML;
+			sourceTree = "<group>";
+		};
 		9A809CD52A5F78BA00FCA9FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -2522,6 +2538,7 @@
 				9A798DA72A53A18100261F46 /* vector3.h in Headers */,
 				9A798F2A2A53A18400261F46 /* BlenderModifier.h in Headers */,
 				9A203C2B2BF4F63400599878 /* C4DImporter.h in Headers */,
+				9A7BF2FE2D26C1E7009852B2 /* VrmlConverter.hpp in Headers */,
 				9A798D942A53A18100261F46 /* Exceptional.h in Headers */,
 				9A798F362A53A18400261F46 /* BlenderIntermediate.h in Headers */,
 				9A798E762A53A18200261F46 /* glTF2Asset.h in Headers */,
@@ -2984,6 +3001,7 @@
 				9A798E192A53A18200261F46 /* ComputeUVMappingProcess.cpp in Sources */,
 				9A798F4A2A53A18400261F46 /* IFCGeometry.cpp in Sources */,
 				9A798EAE2A53A18300261F46 /* AssxmlExporter.cpp in Sources */,
+				9A7BF2FD2D26C1E7009852B2 /* VrmlConverter.cpp in Sources */,
 				9A798EB52A53A18300261F46 /* ColladaLoader.cpp in Sources */,
 				9A798EF02A53A18300261F46 /* CSMLoader.cpp in Sources */,
 				9A798F1C2A53A18300261F46 /* IRRMeshLoader.cpp in Sources */,
@@ -3165,6 +3183,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
+					ASSIMP_BUILD_NO_VRML_IMPORTER,
 					HAVE_CONFIG_H,
 					RAPIDJSON_HAS_STDSTRING,
 					ASSIMP_BUILD_NO_OWN_ZLIB,
@@ -3266,6 +3285,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
+					ASSIMP_BUILD_NO_VRML_IMPORTER,
 					HAVE_CONFIG_H,
 					RAPIDJSON_HAS_STDSTRING,
 					ASSIMP_BUILD_NO_OWN_ZLIB,
