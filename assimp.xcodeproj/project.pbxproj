@@ -362,9 +362,7 @@
 		9A798EB92A53A18300261F46 /* ColladaHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985D72A53A17500261F46 /* ColladaHelper.cpp */; };
 		9A798EBA2A53A18300261F46 /* ColladaExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985D82A53A17500261F46 /* ColladaExporter.cpp */; };
 		9A798EBB2A53A18300261F46 /* glTFExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985DA2A53A17500261F46 /* glTFExporter.cpp */; };
-		9A798EBC2A53A18300261F46 /* glTFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7985DB2A53A17500261F46 /* glTFCommon.h */; };
 		9A798EBD2A53A18300261F46 /* glTFAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7985DC2A53A17500261F46 /* glTFAsset.h */; };
-		9A798EBE2A53A18300261F46 /* glTFCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985DD2A53A17500261F46 /* glTFCommon.cpp */; };
 		9A798EBF2A53A18300261F46 /* glTFImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7985DF2A53A17500261F46 /* glTFImporter.h */; };
 		9A798EC02A53A18300261F46 /* glTFImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985E02A53A17500261F46 /* glTFImporter.cpp */; };
 		9A798EC12A53A18300261F46 /* glTFAssetWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7985E12A53A17500261F46 /* glTFAssetWriter.h */; };
@@ -524,6 +522,8 @@
 		9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D1C2A5FF40500FCA9FD /* libz.tbd */; };
 		9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D332A5FF48500FCA9FD /* libzip.dylib */; };
 		9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */; };
+		9ABADB642D8F5C6000219899 /* glTFCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABADB622D8F5C6000219899 /* glTFCommon.cpp */; };
+		9ABADB652D8F5C6000219899 /* glTFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABADB612D8F5C6000219899 /* glTFCommon.h */; };
 		9ACBD26E2C5715EA00480D13 /* USDLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2642C5715EA00480D13 /* USDLoader.cpp */; };
 		9ACBD26F2C5715EA00480D13 /* USDLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD2652C5715EA00480D13 /* USDLoader.h */; };
 		9ACBD2702C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */; };
@@ -1009,9 +1009,7 @@
 		9A7985D72A53A17500261F46 /* ColladaHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColladaHelper.cpp; sourceTree = "<group>"; };
 		9A7985D82A53A17500261F46 /* ColladaExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColladaExporter.cpp; sourceTree = "<group>"; };
 		9A7985DA2A53A17500261F46 /* glTFExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glTFExporter.cpp; sourceTree = "<group>"; };
-		9A7985DB2A53A17500261F46 /* glTFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glTFCommon.h; sourceTree = "<group>"; };
 		9A7985DC2A53A17500261F46 /* glTFAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glTFAsset.h; sourceTree = "<group>"; };
-		9A7985DD2A53A17500261F46 /* glTFCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glTFCommon.cpp; sourceTree = "<group>"; };
 		9A7985DE2A53A17500261F46 /* glTFAssetWriter.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glTFAssetWriter.inl; sourceTree = "<group>"; };
 		9A7985DF2A53A17500261F46 /* glTFImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glTFImporter.h; sourceTree = "<group>"; };
 		9A7985E02A53A17500261F46 /* glTFImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glTFImporter.cpp; sourceTree = "<group>"; };
@@ -1176,6 +1174,8 @@
 		9A809F772A6024AC00FCA9FD /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
 		9A809F782A6024AD00FCA9FD /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
 		9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clipper.xcodeproj; path = ../../graphics/clipper/clipper.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9ABADB612D8F5C6000219899 /* glTFCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glTFCommon.h; sourceTree = "<group>"; };
+		9ABADB622D8F5C6000219899 /* glTFCommon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = glTFCommon.cpp; sourceTree = "<group>"; };
 		9ACBD2642C5715EA00480D13 /* USDLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoader.cpp; sourceTree = "<group>"; };
 		9ACBD2652C5715EA00480D13 /* USDLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDLoader.h; sourceTree = "<group>"; };
 		9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = USDLoaderImplTinyusdz.cpp; sourceTree = "<group>"; };
@@ -1579,6 +1579,7 @@
 				9A79861D2A53A17500261F46 /* CSM */,
 				9A7986082A53A17500261F46 /* DXF */,
 				9A7985A52A53A17500261F46 /* FBX */,
+				9ABADB632D8F5C6000219899 /* glTFCommon */,
 				9A7985D92A53A17500261F46 /* glTF */,
 				9A7985872A53A17500261F46 /* glTF2 */,
 				9A79864B2A53A17500261F46 /* HMP */,
@@ -1948,9 +1949,7 @@
 			isa = PBXGroup;
 			children = (
 				9A7985DA2A53A17500261F46 /* glTFExporter.cpp */,
-				9A7985DB2A53A17500261F46 /* glTFCommon.h */,
 				9A7985DC2A53A17500261F46 /* glTFAsset.h */,
-				9A7985DD2A53A17500261F46 /* glTFCommon.cpp */,
 				9A7985DE2A53A17500261F46 /* glTFAssetWriter.inl */,
 				9A7985DF2A53A17500261F46 /* glTFImporter.h */,
 				9A7985E02A53A17500261F46 /* glTFImporter.cpp */,
@@ -2385,6 +2384,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9ABADB632D8F5C6000219899 /* glTFCommon */ = {
+			isa = PBXGroup;
+			children = (
+				9ABADB612D8F5C6000219899 /* glTFCommon.h */,
+				9ABADB622D8F5C6000219899 /* glTFCommon.cpp */,
+			);
+			path = glTFCommon;
+			sourceTree = "<group>";
+		};
 		9ACBD26D2C5715EA00480D13 /* USD */ = {
 			isa = PBXGroup;
 			children = (
@@ -2516,7 +2524,6 @@
 				9A798D8D2A53A18100261F46 /* StandardShapes.h in Headers */,
 				9A798E4C2A53A18200261F46 /* MMDPmxParser.h in Headers */,
 				9A798F3D2A53A18400261F46 /* XFileImporter.h in Headers */,
-				9A798EBC2A53A18300261F46 /* glTFCommon.h in Headers */,
 				9A798D752A53A18100261F46 /* commonMetaData.h in Headers */,
 				9A798DCF2A53A18100261F46 /* VertexTriangleAdjacency.h in Headers */,
 				9A798F0B2A53A18300261F46 /* X3DXmlHelper.h in Headers */,
@@ -2551,6 +2558,7 @@
 				9A798F522A53A18400261F46 /* COBLoader.h in Headers */,
 				9A798DA82A53A18100261F46 /* Base64.hpp in Headers */,
 				9A798DAA2A53A18100261F46 /* scene.h in Headers */,
+				9ABADB652D8F5C6000219899 /* glTFCommon.h in Headers */,
 				9A798EC62A53A18300261F46 /* XGLLoader.h in Headers */,
 				9A798DCE2A53A18100261F46 /* FileLogStream.h in Headers */,
 				9A798D9C2A53A18100261F46 /* Bitmap.h in Headers */,
@@ -2931,7 +2939,6 @@
 				9A798ED02A53A18300261F46 /* LWSLoader.cpp in Sources */,
 				9A798F412A53A18400261F46 /* UnrealLoader.cpp in Sources */,
 				9A798F542A53A18400261F46 /* COBLoader.cpp in Sources */,
-				9A798EBE2A53A18300261F46 /* glTFCommon.cpp in Sources */,
 				9A798EBA2A53A18300261F46 /* ColladaExporter.cpp in Sources */,
 				9A798E832A53A18200261F46 /* ASEParser.cpp in Sources */,
 				9A798EF52A53A18300261F46 /* M3DExporter.cpp in Sources */,
@@ -3110,6 +3117,7 @@
 				9A798E172A53A18200261F46 /* ValidateDataStructure.cpp in Sources */,
 				9A798DC32A53A18100261F46 /* CreateAnimMesh.cpp in Sources */,
 				9A798EDD2A53A18300261F46 /* TerragenLoader.cpp in Sources */,
+				9ABADB642D8F5C6000219899 /* glTFCommon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
