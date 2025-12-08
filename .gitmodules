@@ -1,7 +1,3 @@
-[submodule "assimp_assimp"]
-	path = assimp_assimp
-	url = ../../assimp/assimp
-	branch = master
 [submodule "assimp"]
 	path = assimp
 	url = ../../assimp/assimp
