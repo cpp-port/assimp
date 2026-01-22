@@ -1041,6 +1041,7 @@
 		9A8585502F22A183001D08D1 /* libpugixml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809D122A5FE28000FCA9FD /* libpugixml.dylib */; };
 		9A8585522F22A183001D08D1 /* libopenddlparser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A809CD92A5F78BA00FCA9FD /* libopenddlparser.dylib */; };
 		9A8585532F22A183001D08D1 /* libminizip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6A55AB2A5E019800A448BF /* libminizip.dylib */; };
+		9A8585682F22B60A001D08D1 /* libpoly2tri.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A8585652F22B5D9001D08D1 /* libpoly2tri.dylib */; };
 		9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */; };
 		9ABADB642D8F5C6000219899 /* glTFCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABADB622D8F5C6000219899 /* glTFCommon.cpp */; };
 		9ABADB652D8F5C6000219899 /* glTFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABADB612D8F5C6000219899 /* glTFCommon.h */; };
@@ -1142,6 +1143,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9A6A559E2A5E013F00A448BF;
 			remoteInfo = minizip;
+		};
+		9A8585642F22B5D9001D08D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A85855E2F22B5D9001D08D1 /* poly2tri.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A809CB72A5F764400FCA9FD;
+			remoteInfo = poly2tri;
+		};
+		9A8585662F22B5EF001D08D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A85855E2F22B5D9001D08D1 /* poly2tri.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A809CB62A5F764400FCA9FD;
+			remoteInfo = poly2tri;
 		};
 		9A88DAE52ACDCD0A00A34627 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1695,6 +1710,7 @@
 		9A809F772A6024AC00FCA9FD /* _____debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____debug.xcconfig"; sourceTree = "<group>"; };
 		9A809F782A6024AD00FCA9FD /* _____release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "_____release.xcconfig"; sourceTree = "<group>"; };
 		9A8585582F22A183001D08D1 /* libios_assimp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libios_assimp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A85855E2F22B5D9001D08D1 /* poly2tri.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = poly2tri.xcodeproj; path = /Volumes/hstorage/Users/camilo/SceneFoundry/main/port/graphics/poly2tri/poly2tri.xcodeproj; sourceTree = "<absolute>"; };
 		9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = clipper.xcodeproj; path = ../../graphics/clipper/clipper.xcodeproj; sourceTree = SOURCE_ROOT; };
 		9ABADB612D8F5C6000219899 /* glTFCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glTFCommon.h; sourceTree = "<group>"; };
 		9ABADB622D8F5C6000219899 /* glTFCommon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = glTFCommon.cpp; sourceTree = "<group>"; };
@@ -1714,6 +1730,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8585682F22B60A001D08D1 /* libpoly2tri.dylib in Frameworks */,
 				9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */,
 				9A809D3A2A5FF4E500FCA9FD /* libzip.dylib in Frameworks */,
 				9A809D1D2A5FF40600FCA9FD /* libz.tbd in Frameworks */,
@@ -1753,6 +1770,7 @@
 				9A88DAE12ACDCD0A00A34627 /* clipper.xcodeproj */,
 				9A6A55A62A5E019700A448BF /* minizip.xcodeproj */,
 				9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */,
+				9A85855E2F22B5D9001D08D1 /* poly2tri.xcodeproj */,
 				9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */,
 				9A809D2E2A5FF48400FCA9FD /* zip.xcodeproj */,
 				9A797F4B2A53A16E00261F46 /* assimp */,
@@ -2899,6 +2917,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9A8585612F22B5D9001D08D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A8585652F22B5D9001D08D1 /* libpoly2tri.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9A88DAE22ACDCD0A00A34627 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -3568,6 +3594,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9A8585672F22B5EF001D08D1 /* PBXTargetDependency */,
 				9A88DAE82ACDCD5500A34627 /* PBXTargetDependency */,
 				9A809D392A5FF4D800FCA9FD /* PBXTargetDependency */,
 				9A809D142A5FEE9300FCA9FD /* PBXTargetDependency */,
@@ -3642,6 +3669,10 @@
 					ProjectRef = 9A809CD42A5F78BA00FCA9FD /* openddlparser.xcodeproj */;
 				},
 				{
+					ProductGroup = 9A8585612F22B5D9001D08D1 /* Products */;
+					ProjectRef = 9A85855E2F22B5D9001D08D1 /* poly2tri.xcodeproj */;
+				},
+				{
 					ProductGroup = 9A809D0E2A5FE28000FCA9FD /* Products */;
 					ProjectRef = 9A809D0D2A5FE28000FCA9FD /* pugixml.xcodeproj */;
 				},
@@ -3685,6 +3716,13 @@
 			fileType = "compiled.mach-o.dylib";
 			path = libzip.dylib;
 			remoteRef = 9A809D322A5FF48500FCA9FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9A8585652F22B5D9001D08D1 /* libpoly2tri.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libpoly2tri.dylib;
+			remoteRef = 9A8585642F22B5D9001D08D1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */ = {
@@ -4227,6 +4265,11 @@
 			isa = PBXTargetDependency;
 			name = minizip;
 			targetProxy = 9A8583412F22A183001D08D1 /* PBXContainerItemProxy */;
+		};
+		9A8585672F22B5EF001D08D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = poly2tri;
+			targetProxy = 9A8585662F22B5EF001D08D1 /* PBXContainerItemProxy */;
 		};
 		9A88DAE82ACDCD5500A34627 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
