@@ -868,7 +868,6 @@
 		9A85849D2F22A183001D08D1 /* TextureTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A79851D2A53A17400261F46 /* TextureTransform.cpp */; };
 		9A85849E2F22A183001D08D1 /* MD5Loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985542A53A17500261F46 /* MD5Loader.cpp */; };
 		9A85849F2F22A183001D08D1 /* LWOLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985FD2A53A17500261F46 /* LWOLoader.cpp */; };
-		9A8584A02F22A183001D08D1 /* USDLoaderImplTinyusdz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */; };
 		9A8584A12F22A183001D08D1 /* ObjFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985482A53A17500261F46 /* ObjFileImporter.cpp */; };
 		9A8584A22F22A183001D08D1 /* FBXMeshGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985C52A53A17500261F46 /* FBXMeshGeometry.cpp */; };
 		9A8584A32F22A183001D08D1 /* ImproveCacheLocality.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7984F12A53A17400261F46 /* ImproveCacheLocality.cpp */; };
@@ -880,11 +879,9 @@
 		9A8584A92F22A183001D08D1 /* STEPFileEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986022A53A17500261F46 /* STEPFileEncoding.cpp */; };
 		9A8584AA2F22A183001D08D1 /* XFileParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986772A53A17600261F46 /* XFileParser.cpp */; };
 		9A8584AB2F22A183001D08D1 /* STLExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985EE2A53A17500261F46 /* STLExporter.cpp */; };
-		9A8584AC2F22A183001D08D1 /* USDLoaderUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD26A2C5715EA00480D13 /* USDLoaderUtil.cpp */; };
 		9A8584AD2F22A183001D08D1 /* M3DImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986222A53A17500261F46 /* M3DImporter.cpp */; };
 		9A8584AE2F22A183001D08D1 /* LWOBLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985FF2A53A17500261F46 /* LWOBLoader.cpp */; };
 		9A8584AF2F22A183001D08D1 /* STEPFileReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986042A53A17500261F46 /* STEPFileReader.cpp */; };
-		9A8584B02F22A183001D08D1 /* USDLoaderImplTinyusdzHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2682C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp */; };
 		9A8584B12F22A183001D08D1 /* OpenGEXExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985982A53A17500261F46 /* OpenGEXExporter.cpp */; };
 		9A8584B22F22A183001D08D1 /* FBXAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985B32A53A17500261F46 /* FBXAnimation.cpp */; };
 		9A8584B32F22A183001D08D1 /* Base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7984B92A53A17400261F46 /* Base64.cpp */; };
@@ -916,7 +913,6 @@
 		9A8584CD2F22A183001D08D1 /* OgreXmlSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A79857F2A53A17500261F46 /* OgreXmlSerializer.cpp */; };
 		9A8584CE2F22A183001D08D1 /* FBXBinaryTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985B52A53A17500261F46 /* FBXBinaryTokenizer.cpp */; };
 		9A8584CF2F22A183001D08D1 /* FBXModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985AF2A53A17500261F46 /* FBXModel.cpp */; };
-		9A8584D02F22A183001D08D1 /* USDLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2642C5715EA00480D13 /* USDLoader.cpp */; };
 		9A8584D12F22A183001D08D1 /* ColladaParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7985D42A53A17500261F46 /* ColladaParser.cpp */; };
 		9A8584D22F22A183001D08D1 /* X3DImporter_Networking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A7986312A53A17500261F46 /* X3DImporter_Networking.cpp */; };
 		9A8584D32F22A183001D08D1 /* XFileImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A79867B2A53A17600261F46 /* XFileImporter.cpp */; };
@@ -1048,13 +1044,9 @@
 		9A88DAEB2ACDD1CD00A34627 /* libclipper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A88DAE62ACDCD0A00A34627 /* libclipper.dylib */; };
 		9ABADB642D8F5C6000219899 /* glTFCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ABADB622D8F5C6000219899 /* glTFCommon.cpp */; };
 		9ABADB652D8F5C6000219899 /* glTFCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABADB612D8F5C6000219899 /* glTFCommon.h */; };
-		9ACBD26E2C5715EA00480D13 /* USDLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2642C5715EA00480D13 /* USDLoader.cpp */; };
 		9ACBD26F2C5715EA00480D13 /* USDLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD2652C5715EA00480D13 /* USDLoader.h */; };
-		9ACBD2702C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2662C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp */; };
 		9ACBD2712C5715EA00480D13 /* USDLoaderImplTinyusdz.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD2672C5715EA00480D13 /* USDLoaderImplTinyusdz.h */; };
-		9ACBD2722C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD2682C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp */; };
 		9ACBD2732C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD2692C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.h */; };
-		9ACBD2742C5715EA00480D13 /* USDLoaderUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9ACBD26A2C5715EA00480D13 /* USDLoaderUtil.cpp */; };
 		9ACBD2752C5715EA00480D13 /* USDLoaderUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD26B2C5715EA00480D13 /* USDLoaderUtil.h */; };
 		9ACBD2762C5715EA00480D13 /* USDPreprocessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACBD26C2C5715EA00480D13 /* USDPreprocessor.h */; };
 /* End PBXBuildFile section */
@@ -3798,7 +3790,6 @@
 				9A798E1B2A53A18200261F46 /* TextureTransform.cpp in Sources */,
 				9A798E482A53A18200261F46 /* MD5Loader.cpp in Sources */,
 				9A798ED52A53A18300261F46 /* LWOLoader.cpp in Sources */,
-				9ACBD2702C5715EA00480D13 /* USDLoaderImplTinyusdz.cpp in Sources */,
 				9A798E3E2A53A18200261F46 /* ObjFileImporter.cpp in Sources */,
 				9A798EAA2A53A18300261F46 /* FBXMeshGeometry.cpp in Sources */,
 				9A798DEF2A53A18200261F46 /* ImproveCacheLocality.cpp in Sources */,
@@ -3810,11 +3801,9 @@
 				9A798ED92A53A18300261F46 /* STEPFileEncoding.cpp in Sources */,
 				9A798F3B2A53A18400261F46 /* XFileParser.cpp in Sources */,
 				9A798EC92A53A18300261F46 /* STLExporter.cpp in Sources */,
-				9ACBD2742C5715EA00480D13 /* USDLoaderUtil.cpp in Sources */,
 				9A798EF22A53A18300261F46 /* M3DImporter.cpp in Sources */,
 				9A798ED72A53A18300261F46 /* LWOBLoader.cpp in Sources */,
 				9A798EDB2A53A18300261F46 /* STEPFileReader.cpp in Sources */,
-				9ACBD2722C5715EA00480D13 /* USDLoaderImplTinyusdzHelper.cpp in Sources */,
 				9A798E812A53A18200261F46 /* OpenGEXExporter.cpp in Sources */,
 				9A798E982A53A18300261F46 /* FBXAnimation.cpp in Sources */,
 				9A798DB92A53A18100261F46 /* Base64.cpp in Sources */,
@@ -3846,7 +3835,6 @@
 				9A798E6D2A53A18200261F46 /* OgreXmlSerializer.cpp in Sources */,
 				9A798E9A2A53A18300261F46 /* FBXBinaryTokenizer.cpp in Sources */,
 				9A798E942A53A18300261F46 /* FBXModel.cpp in Sources */,
-				9ACBD26E2C5715EA00480D13 /* USDLoader.cpp in Sources */,
 				9A798EB62A53A18300261F46 /* ColladaParser.cpp in Sources */,
 				9A798EFF2A53A18300261F46 /* X3DImporter_Networking.cpp in Sources */,
 				9A798F3F2A53A18400261F46 /* XFileImporter.cpp in Sources */,
@@ -4022,7 +4010,6 @@
 				9A85849D2F22A183001D08D1 /* TextureTransform.cpp in Sources */,
 				9A85849E2F22A183001D08D1 /* MD5Loader.cpp in Sources */,
 				9A85849F2F22A183001D08D1 /* LWOLoader.cpp in Sources */,
-				9A8584A02F22A183001D08D1 /* USDLoaderImplTinyusdz.cpp in Sources */,
 				9A8584A12F22A183001D08D1 /* ObjFileImporter.cpp in Sources */,
 				9A8584A22F22A183001D08D1 /* FBXMeshGeometry.cpp in Sources */,
 				9A8584A32F22A183001D08D1 /* ImproveCacheLocality.cpp in Sources */,
@@ -4034,11 +4021,9 @@
 				9A8584A92F22A183001D08D1 /* STEPFileEncoding.cpp in Sources */,
 				9A8584AA2F22A183001D08D1 /* XFileParser.cpp in Sources */,
 				9A8584AB2F22A183001D08D1 /* STLExporter.cpp in Sources */,
-				9A8584AC2F22A183001D08D1 /* USDLoaderUtil.cpp in Sources */,
 				9A8584AD2F22A183001D08D1 /* M3DImporter.cpp in Sources */,
 				9A8584AE2F22A183001D08D1 /* LWOBLoader.cpp in Sources */,
 				9A8584AF2F22A183001D08D1 /* STEPFileReader.cpp in Sources */,
-				9A8584B02F22A183001D08D1 /* USDLoaderImplTinyusdzHelper.cpp in Sources */,
 				9A8584B12F22A183001D08D1 /* OpenGEXExporter.cpp in Sources */,
 				9A8584B22F22A183001D08D1 /* FBXAnimation.cpp in Sources */,
 				9A8584B32F22A183001D08D1 /* Base64.cpp in Sources */,
@@ -4070,7 +4055,6 @@
 				9A8584CD2F22A183001D08D1 /* OgreXmlSerializer.cpp in Sources */,
 				9A8584CE2F22A183001D08D1 /* FBXBinaryTokenizer.cpp in Sources */,
 				9A8584CF2F22A183001D08D1 /* FBXModel.cpp in Sources */,
-				9A8584D02F22A183001D08D1 /* USDLoader.cpp in Sources */,
 				9A8584D12F22A183001D08D1 /* ColladaParser.cpp in Sources */,
 				9A8584D22F22A183001D08D1 /* X3DImporter_Networking.cpp in Sources */,
 				9A8584D32F22A183001D08D1 /* XFileImporter.cpp in Sources */,
